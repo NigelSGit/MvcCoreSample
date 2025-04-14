@@ -27,3 +27,8 @@ C:\Users\NigelSpicer\source\repos\MvcCoreSample\MvcCoreSample\obj\Debug\net8.0\r
 C:\Users\NigelSpicer\source\repos\MvcCoreSample\MvcCoreSample\obj\Debug\net8.0\MvcCoreSample.pdb
 C:\Users\NigelSpicer\source\repos\MvcCoreSample\MvcCoreSample\obj\Debug\net8.0\MvcCoreSample.genruntimeconfig.cache
 C:\Users\NigelSpicer\source\repos\MvcCoreSample\MvcCoreSample\obj\Debug\net8.0\ref\MvcCoreSample.dll
+C:\Users\NigelSpicer\source\repos\MvcCoreSample\MvcCoreSample\obj\Debug\net8.0\MvcCoreSample.sourcelink.json
+C:\Users\NigelSpicer\source\repos\MvcCoreSample\MvcCoreSample\obj\Debug\net8.0\MvcCoreSample.RazorAssemblyInfo.cache
+C:\Users\NigelSpicer\source\repos\MvcCoreSample\MvcCoreSample\obj\Debug\net8.0\MvcCoreSample.RazorAssemblyInfo.cs
+C:\Users\NigelSpicer\source\repos\MvcCoreSample\MvcCoreSample\bin\Debug\net8.0\libman.json
+C:\Users\NigelSpicer\source\repos\MvcCoreSample\MvcCoreSample\bin\Debug\net8.0\MvcCoreSample.staticwebassets.runtime.json
