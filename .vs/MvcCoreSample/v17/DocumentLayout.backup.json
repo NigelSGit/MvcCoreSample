@@ -3,24 +3,28 @@
   "WorkspaceRootPath": "C:\\Users\\NigelSpicer\\source\\repos\\MvcCoreSample\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{5D9D37D8-2968-4BB0-80A4-63318C1280B9}|MvcCoreSample\\MvcCoreSample.csproj|c:\\users\\nigelspicer\\source\\repos\\mvccoresample\\mvccoresample\\controllers\\piecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5D9D37D8-2968-4BB0-80A4-63318C1280B9}|MvcCoreSample\\MvcCoreSample.csproj|solutionrelative:mvccoresample\\controllers\\piecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{5D9D37D8-2968-4BB0-80A4-63318C1280B9}|MvcCoreSample\\MvcCoreSample.csproj|c:\\users\\nigelspicer\\source\\repos\\mvccoresample\\mvccoresample\\pages\\checkoutpage.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5D9D37D8-2968-4BB0-80A4-63318C1280B9}|MvcCoreSample\\MvcCoreSample.csproj|solutionrelative:mvccoresample\\pages\\checkoutpage.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5D9D37D8-2968-4BB0-80A4-63318C1280B9}|MvcCoreSample\\MvcCoreSample.csproj|c:\\users\\nigelspicer\\source\\repos\\mvccoresample\\mvccoresample\\views\\pie\\list.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{5D9D37D8-2968-4BB0-80A4-63318C1280B9}|MvcCoreSample\\MvcCoreSample.csproj|solutionrelative:mvccoresample\\views\\pie\\list.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{5D9D37D8-2968-4BB0-80A4-63318C1280B9}|MvcCoreSample\\MvcCoreSample.csproj|c:\\users\\nigelspicer\\source\\repos\\mvccoresample\\mvccoresample\\pages\\checkoutpage.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5D9D37D8-2968-4BB0-80A4-63318C1280B9}|MvcCoreSample\\MvcCoreSample.csproj|solutionrelative:mvccoresample\\pages\\checkoutpage.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5D9D37D8-2968-4BB0-80A4-63318C1280B9}|MvcCoreSample\\MvcCoreSample.csproj|c:\\users\\nigelspicer\\source\\repos\\mvccoresample\\mvccoresample\\views\\shared\\components\\categorymenu\\default.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{5D9D37D8-2968-4BB0-80A4-63318C1280B9}|MvcCoreSample\\MvcCoreSample.csproj|solutionrelative:mvccoresample\\views\\shared\\components\\categorymenu\\default.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{5D9D37D8-2968-4BB0-80A4-63318C1280B9}|MvcCoreSample\\MvcCoreSample.csproj|c:\\users\\nigelspicer\\source\\repos\\mvccoresample\\mvccoresample\\pages\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5D9D37D8-2968-4BB0-80A4-63318C1280B9}|MvcCoreSample\\MvcCoreSample.csproj|solutionrelative:mvccoresample\\pages\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5D9D37D8-2968-4BB0-80A4-63318C1280B9}|MvcCoreSample\\MvcCoreSample.csproj|c:\\users\\nigelspicer\\source\\repos\\mvccoresample\\mvccoresample\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{5D9D37D8-2968-4BB0-80A4-63318C1280B9}|MvcCoreSample\\MvcCoreSample.csproj|solutionrelative:mvccoresample\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{5D9D37D8-2968-4BB0-80A4-63318C1280B9}|MvcCoreSample\\MvcCoreSample.csproj|c:\\users\\nigelspicer\\source\\repos\\mvccoresample\\mvccoresample\\pages\\checkoutcompletepage.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5D9D37D8-2968-4BB0-80A4-63318C1280B9}|MvcCoreSample\\MvcCoreSample.csproj|solutionrelative:mvccoresample\\pages\\checkoutcompletepage.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5D9D37D8-2968-4BB0-80A4-63318C1280B9}|MvcCoreSample\\MvcCoreSample.csproj|c:\\users\\nigelspicer\\source\\repos\\mvccoresample\\mvccoresample\\components\\categorymenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5D9D37D8-2968-4BB0-80A4-63318C1280B9}|MvcCoreSample\\MvcCoreSample.csproj|solutionrelative:mvccoresample\\components\\categorymenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{5D9D37D8-2968-4BB0-80A4-63318C1280B9}|MvcCoreSample\\MvcCoreSample.csproj|c:\\users\\nigelspicer\\source\\repos\\mvccoresample\\mvccoresample\\pages\\checkoutcompletepage.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5D9D37D8-2968-4BB0-80A4-63318C1280B9}|MvcCoreSample\\MvcCoreSample.csproj|solutionrelative:mvccoresample\\pages\\checkoutcompletepage.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5D9D37D8-2968-4BB0-80A4-63318C1280B9}|MvcCoreSample\\MvcCoreSample.csproj|c:\\users\\nigelspicer\\source\\repos\\mvccoresample\\mvccoresample\\views\\order\\checkout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5D9D37D8-2968-4BB0-80A4-63318C1280B9}|MvcCoreSample\\MvcCoreSample.csproj|solutionrelative:mvccoresample\\views\\order\\checkout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -30,71 +34,84 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "PieController.cs",
-              "DocumentMoniker": "C:\\Users\\NigelSpicer\\source\\repos\\MvcCoreSample\\MvcCoreSample\\Controllers\\PieController.cs",
-              "RelativeDocumentMoniker": "MvcCoreSample\\Controllers\\PieController.cs",
-              "ToolTip": "C:\\Users\\NigelSpicer\\source\\repos\\MvcCoreSample\\MvcCoreSample\\Controllers\\PieController.cs",
-              "RelativeToolTip": "MvcCoreSample\\Controllers\\PieController.cs",
-              "ViewState": "AgIAAA4AAAAAAAAAAADgvxwAAAAIAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-17T12:57:12.481Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "List.cshtml",
-              "DocumentMoniker": "C:\\Users\\NigelSpicer\\source\\repos\\MvcCoreSample\\MvcCoreSample\\Views\\Pie\\List.cshtml",
-              "RelativeDocumentMoniker": "MvcCoreSample\\Views\\Pie\\List.cshtml",
-              "ToolTip": "C:\\Users\\NigelSpicer\\source\\repos\\MvcCoreSample\\MvcCoreSample\\Views\\Pie\\List.cshtml",
-              "RelativeToolTip": "MvcCoreSample\\Views\\Pie\\List.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAACAAAAAAAAAA==",
+              "DocumentIndex": 2,
+              "Title": "_ViewImports.cshtml",
+              "DocumentMoniker": "C:\\Users\\NigelSpicer\\source\\repos\\MvcCoreSample\\MvcCoreSample\\Pages\\_ViewImports.cshtml",
+              "RelativeDocumentMoniker": "MvcCoreSample\\Pages\\_ViewImports.cshtml",
+              "ToolTip": "C:\\Users\\NigelSpicer\\source\\repos\\MvcCoreSample\\MvcCoreSample\\Pages\\_ViewImports.cshtml",
+              "RelativeToolTip": "MvcCoreSample\\Pages\\_ViewImports.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAeAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-04-17T12:57:12.505Z",
+              "WhenOpened": "2025-04-17T15:41:18.416Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "_Layout.cshtml",
-              "DocumentMoniker": "C:\\Users\\NigelSpicer\\source\\repos\\MvcCoreSample\\MvcCoreSample\\Views\\Shared\\_Layout.cshtml",
-              "RelativeDocumentMoniker": "MvcCoreSample\\Views\\Shared\\_Layout.cshtml",
-              "ToolTip": "C:\\Users\\NigelSpicer\\source\\repos\\MvcCoreSample\\MvcCoreSample\\Views\\Shared\\_Layout.cshtml",
-              "RelativeToolTip": "MvcCoreSample\\Views\\Shared\\_Layout.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAABCAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-04-17T11:33:21.354Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Default.cshtml",
-              "DocumentMoniker": "C:\\Users\\NigelSpicer\\source\\repos\\MvcCoreSample\\MvcCoreSample\\Views\\Shared\\Components\\CategoryMenu\\Default.cshtml",
-              "RelativeDocumentMoniker": "MvcCoreSample\\Views\\Shared\\Components\\CategoryMenu\\Default.cshtml",
-              "ToolTip": "C:\\Users\\NigelSpicer\\source\\repos\\MvcCoreSample\\MvcCoreSample\\Views\\Shared\\Components\\CategoryMenu\\Default.cshtml",
-              "RelativeToolTip": "MvcCoreSample\\Views\\Shared\\Components\\CategoryMenu\\Default.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAA6AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-04-17T11:27:34.46Z",
+              "Title": "CheckoutCompletePage.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\NigelSpicer\\source\\repos\\MvcCoreSample\\MvcCoreSample\\Pages\\CheckoutCompletePage.cshtml.cs",
+              "RelativeDocumentMoniker": "MvcCoreSample\\Pages\\CheckoutCompletePage.cshtml.cs",
+              "ToolTip": "C:\\Users\\NigelSpicer\\source\\repos\\MvcCoreSample\\MvcCoreSample\\Pages\\CheckoutCompletePage.cshtml.cs",
+              "RelativeToolTip": "MvcCoreSample\\Pages\\CheckoutCompletePage.cshtml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-17T15:32:00.283Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "CategoryMenu.cs",
-              "DocumentMoniker": "C:\\Users\\NigelSpicer\\source\\repos\\MvcCoreSample\\MvcCoreSample\\Components\\CategoryMenu.cs",
-              "RelativeDocumentMoniker": "MvcCoreSample\\Components\\CategoryMenu.cs",
-              "ToolTip": "C:\\Users\\NigelSpicer\\source\\repos\\MvcCoreSample\\MvcCoreSample\\Components\\CategoryMenu.cs",
-              "RelativeToolTip": "MvcCoreSample\\Components\\CategoryMenu.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAABAAAAAAAAAA==",
+              "Title": "CheckoutCompletePage.cshtml",
+              "DocumentMoniker": "C:\\Users\\NigelSpicer\\source\\repos\\MvcCoreSample\\MvcCoreSample\\Pages\\CheckoutCompletePage.cshtml",
+              "RelativeDocumentMoniker": "MvcCoreSample\\Pages\\CheckoutCompletePage.cshtml",
+              "ToolTip": "C:\\Users\\NigelSpicer\\source\\repos\\MvcCoreSample\\MvcCoreSample\\Pages\\CheckoutCompletePage.cshtml",
+              "RelativeToolTip": "MvcCoreSample\\Pages\\CheckoutCompletePage.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-17T15:28:08.101Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Checkout.cshtml",
+              "DocumentMoniker": "C:\\Users\\NigelSpicer\\source\\repos\\MvcCoreSample\\MvcCoreSample\\Views\\Order\\Checkout.cshtml",
+              "RelativeDocumentMoniker": "MvcCoreSample\\Views\\Order\\Checkout.cshtml",
+              "ToolTip": "C:\\Users\\NigelSpicer\\source\\repos\\MvcCoreSample\\MvcCoreSample\\Views\\Order\\Checkout.cshtml",
+              "RelativeToolTip": "MvcCoreSample\\Views\\Order\\Checkout.cshtml",
+              "ViewState": "AgIAACQAAAAAAAAAAAAAAE0AAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-17T15:19:29.685Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "CheckoutPage.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\NigelSpicer\\source\\repos\\MvcCoreSample\\MvcCoreSample\\Pages\\CheckoutPage.cshtml.cs",
+              "RelativeDocumentMoniker": "MvcCoreSample\\Pages\\CheckoutPage.cshtml.cs",
+              "ToolTip": "C:\\Users\\NigelSpicer\\source\\repos\\MvcCoreSample\\MvcCoreSample\\Pages\\CheckoutPage.cshtml.cs",
+              "RelativeToolTip": "MvcCoreSample\\Pages\\CheckoutPage.cshtml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-17T11:49:59.554Z",
+              "WhenOpened": "2025-04-17T15:16:33.256Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "CheckoutPage.cshtml",
+              "DocumentMoniker": "C:\\Users\\NigelSpicer\\source\\repos\\MvcCoreSample\\MvcCoreSample\\Pages\\CheckoutPage.cshtml",
+              "RelativeDocumentMoniker": "MvcCoreSample\\Pages\\CheckoutPage.cshtml",
+              "ToolTip": "C:\\Users\\NigelSpicer\\source\\repos\\MvcCoreSample\\MvcCoreSample\\Pages\\CheckoutPage.cshtml",
+              "RelativeToolTip": "MvcCoreSample\\Pages\\CheckoutPage.cshtml",
+              "ViewState": "AgIAADYAAAAAAAAAAAAAADwAAABAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-17T15:14:52.663Z",
               "EditorCaption": ""
             }
           ]
