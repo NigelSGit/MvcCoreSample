@@ -2,7 +2,7 @@
 
 #nullable disable
 
-namespace MvcCoreSample.Migrations
+namespace BethanysPieShop.Migrations
 {
     /// <inheritdoc />
     public partial class InitialMigration : Migration

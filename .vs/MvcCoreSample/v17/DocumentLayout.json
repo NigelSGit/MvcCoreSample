@@ -3,8 +3,40 @@
   "WorkspaceRootPath": "C:\\Users\\NigelSpicer\\source\\repos\\MvcCoreSample\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{5D9D37D8-2968-4BB0-80A4-63318C1280B9}|MvcCoreSample\\MvcCoreSample.csproj|c:\\users\\nigelspicer\\source\\repos\\mvccoresample\\mvccoresample\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5D9D37D8-2968-4BB0-80A4-63318C1280B9}|MvcCoreSample\\MvcCoreSample.csproj|solutionrelative:mvccoresample\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{5D9D37D8-2968-4BB0-80A4-63318C1280B9}|MvcCoreSample\\MvcCoreSample.csproj|c:\\users\\nigelspicer\\source\\repos\\mvccoresample\\mvccoresample\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5D9D37D8-2968-4BB0-80A4-63318C1280B9}|MvcCoreSample\\MvcCoreSample.csproj|solutionrelative:mvccoresample\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5D9D37D8-2968-4BB0-80A4-63318C1280B9}|MvcCoreSample\\MvcCoreSample.csproj|c:\\users\\nigelspicer\\source\\repos\\mvccoresample\\mvccoresample\\views\\shoppingcart\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5D9D37D8-2968-4BB0-80A4-63318C1280B9}|MvcCoreSample\\MvcCoreSample.csproj|solutionrelative:mvccoresample\\views\\shoppingcart\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5D9D37D8-2968-4BB0-80A4-63318C1280B9}|MvcCoreSample\\MvcCoreSample.csproj|c:\\users\\nigelspicer\\source\\repos\\mvccoresample\\mvccoresample\\controllers\\shoppingcartcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5D9D37D8-2968-4BB0-80A4-63318C1280B9}|MvcCoreSample\\MvcCoreSample.csproj|solutionrelative:mvccoresample\\controllers\\shoppingcartcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5D9D37D8-2968-4BB0-80A4-63318C1280B9}|MvcCoreSample\\MvcCoreSample.csproj|c:\\users\\nigelspicer\\source\\repos\\mvccoresample\\mvccoresample\\models\\shoppingcart.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5D9D37D8-2968-4BB0-80A4-63318C1280B9}|MvcCoreSample\\MvcCoreSample.csproj|solutionrelative:mvccoresample\\models\\shoppingcart.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5D9D37D8-2968-4BB0-80A4-63318C1280B9}|MvcCoreSample\\MvcCoreSample.csproj|c:\\users\\nigelspicer\\source\\repos\\mvccoresample\\mvccoresample\\views\\shared\\components\\categorymenu\\default.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5D9D37D8-2968-4BB0-80A4-63318C1280B9}|MvcCoreSample\\MvcCoreSample.csproj|solutionrelative:mvccoresample\\views\\shared\\components\\categorymenu\\default.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5D9D37D8-2968-4BB0-80A4-63318C1280B9}|MvcCoreSample\\MvcCoreSample.csproj|c:\\users\\nigelspicer\\source\\repos\\mvccoresample\\mvccoresample\\controllers\\piecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5D9D37D8-2968-4BB0-80A4-63318C1280B9}|MvcCoreSample\\MvcCoreSample.csproj|solutionrelative:mvccoresample\\controllers\\piecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5D9D37D8-2968-4BB0-80A4-63318C1280B9}|MvcCoreSample\\MvcCoreSample.csproj|c:\\users\\nigelspicer\\source\\repos\\mvccoresample\\mvccoresample\\components\\categorymenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5D9D37D8-2968-4BB0-80A4-63318C1280B9}|MvcCoreSample\\MvcCoreSample.csproj|solutionrelative:mvccoresample\\components\\categorymenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5D9D37D8-2968-4BB0-80A4-63318C1280B9}|MvcCoreSample\\MvcCoreSample.csproj|c:\\users\\nigelspicer\\source\\repos\\mvccoresample\\mvccoresample\\views\\shared\\components\\shoppingcartsummary\\default.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5D9D37D8-2968-4BB0-80A4-63318C1280B9}|MvcCoreSample\\MvcCoreSample.csproj|solutionrelative:mvccoresample\\views\\shared\\components\\shoppingcartsummary\\default.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5D9D37D8-2968-4BB0-80A4-63318C1280B9}|MvcCoreSample\\MvcCoreSample.csproj|c:\\users\\nigelspicer\\source\\repos\\mvccoresample\\mvccoresample\\components\\shoppingcartsummary.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5D9D37D8-2968-4BB0-80A4-63318C1280B9}|MvcCoreSample\\MvcCoreSample.csproj|solutionrelative:mvccoresample\\components\\shoppingcartsummary.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -14,19 +46,123 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\NigelSpicer\\source\\repos\\MvcCoreSample\\MvcCoreSample\\Program.cs",
-              "RelativeDocumentMoniker": "MvcCoreSample\\Program.cs",
-              "ToolTip": "C:\\Users\\NigelSpicer\\source\\repos\\MvcCoreSample\\MvcCoreSample\\Program.cs",
-              "RelativeToolTip": "MvcCoreSample\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAABcAAAAAAAAAA==",
+              "DocumentIndex": 1,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\NigelSpicer\\source\\repos\\MvcCoreSample\\MvcCoreSample\\Views\\ShoppingCart\\Index.cshtml",
+              "RelativeDocumentMoniker": "MvcCoreSample\\Views\\ShoppingCart\\Index.cshtml",
+              "ToolTip": "C:\\Users\\NigelSpicer\\source\\repos\\MvcCoreSample\\MvcCoreSample\\Views\\ShoppingCart\\Index.cshtml",
+              "RelativeToolTip": "MvcCoreSample\\Views\\ShoppingCart\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-17T09:02:38.768Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "PieController.cs",
+              "DocumentMoniker": "C:\\Users\\NigelSpicer\\source\\repos\\MvcCoreSample\\MvcCoreSample\\Controllers\\PieController.cs",
+              "RelativeDocumentMoniker": "MvcCoreSample\\Controllers\\PieController.cs",
+              "ToolTip": "C:\\Users\\NigelSpicer\\source\\repos\\MvcCoreSample\\MvcCoreSample\\Controllers\\PieController.cs",
+              "RelativeToolTip": "MvcCoreSample\\Controllers\\PieController.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAYwDkAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-11T15:50:10.303Z",
+              "WhenOpened": "2025-04-17T08:59:50.201Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Default.cshtml",
+              "DocumentMoniker": "C:\\Users\\NigelSpicer\\source\\repos\\MvcCoreSample\\MvcCoreSample\\Views\\Shared\\Components\\CategoryMenu\\Default.cshtml",
+              "RelativeDocumentMoniker": "MvcCoreSample\\Views\\Shared\\Components\\CategoryMenu\\Default.cshtml",
+              "ToolTip": "C:\\Users\\NigelSpicer\\source\\repos\\MvcCoreSample\\MvcCoreSample\\Views\\Shared\\Components\\CategoryMenu\\Default.cshtml",
+              "RelativeToolTip": "MvcCoreSample\\Views\\Shared\\Components\\CategoryMenu\\Default.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-17T08:57:52.335Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "CategoryMenu.cs",
+              "DocumentMoniker": "C:\\Users\\NigelSpicer\\source\\repos\\MvcCoreSample\\MvcCoreSample\\Components\\CategoryMenu.cs",
+              "RelativeDocumentMoniker": "MvcCoreSample\\Components\\CategoryMenu.cs",
+              "ToolTip": "C:\\Users\\NigelSpicer\\source\\repos\\MvcCoreSample\\MvcCoreSample\\Components\\CategoryMenu.cs",
+              "RelativeToolTip": "MvcCoreSample\\Components\\CategoryMenu.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-17T08:55:41.336Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\NigelSpicer\\source\\repos\\MvcCoreSample\\MvcCoreSample\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "MvcCoreSample\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\NigelSpicer\\source\\repos\\MvcCoreSample\\MvcCoreSample\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "MvcCoreSample\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB4AAABBAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-17T08:53:45.762Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ShoppingCart.cs",
+              "DocumentMoniker": "C:\\Users\\NigelSpicer\\source\\repos\\MvcCoreSample\\MvcCoreSample\\Models\\ShoppingCart.cs",
+              "RelativeDocumentMoniker": "MvcCoreSample\\Models\\ShoppingCart.cs",
+              "ToolTip": "C:\\Users\\NigelSpicer\\source\\repos\\MvcCoreSample\\MvcCoreSample\\Models\\ShoppingCart.cs",
+              "RelativeToolTip": "MvcCoreSample\\Models\\ShoppingCart.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-17T08:49:39.597Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ShoppingCartController.cs",
+              "DocumentMoniker": "C:\\Users\\NigelSpicer\\source\\repos\\MvcCoreSample\\MvcCoreSample\\Controllers\\ShoppingCartController.cs",
+              "RelativeDocumentMoniker": "MvcCoreSample\\Controllers\\ShoppingCartController.cs",
+              "ToolTip": "C:\\Users\\NigelSpicer\\source\\repos\\MvcCoreSample\\MvcCoreSample\\Controllers\\ShoppingCartController.cs",
+              "RelativeToolTip": "MvcCoreSample\\Controllers\\ShoppingCartController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-17T08:49:39.628Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "ShoppingCartSummary.cs",
+              "DocumentMoniker": "C:\\Users\\NigelSpicer\\source\\repos\\MvcCoreSample\\MvcCoreSample\\Components\\ShoppingCartSummary.cs",
+              "RelativeDocumentMoniker": "MvcCoreSample\\Components\\ShoppingCartSummary.cs",
+              "ToolTip": "C:\\Users\\NigelSpicer\\source\\repos\\MvcCoreSample\\MvcCoreSample\\Components\\ShoppingCartSummary.cs",
+              "RelativeToolTip": "MvcCoreSample\\Components\\ShoppingCartSummary.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-16T16:01:34.016Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Default.cshtml",
+              "DocumentMoniker": "C:\\Users\\NigelSpicer\\source\\repos\\MvcCoreSample\\MvcCoreSample\\Views\\Shared\\Components\\ShoppingCartSummary\\Default.cshtml",
+              "RelativeDocumentMoniker": "MvcCoreSample\\Views\\Shared\\Components\\ShoppingCartSummary\\Default.cshtml",
+              "ToolTip": "C:\\Users\\NigelSpicer\\source\\repos\\MvcCoreSample\\MvcCoreSample\\Views\\Shared\\Components\\ShoppingCartSummary\\Default.cshtml",
+              "RelativeToolTip": "MvcCoreSample\\Views\\Shared\\Components\\ShoppingCartSummary\\Default.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-16T16:01:34.125Z",
               "EditorCaption": ""
             }
           ]

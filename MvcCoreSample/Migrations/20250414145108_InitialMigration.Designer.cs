@@ -8,7 +8,7 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
 #nullable disable
 
-namespace MvcCoreSample.Migrations
+namespace BethanysPieShop.Migrations
 {
     [DbContext(typeof(BethanysPieShopDbContext))]
     [Migration("20250414145108_InitialMigration")]

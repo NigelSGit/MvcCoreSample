@@ -7,7 +7,7 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
 #nullable disable
 
-namespace MvcCoreSample.Migrations
+namespace BethanysPieShop.Migrations
 {
     [DbContext(typeof(BethanysPieShopDbContext))]
     partial class BethanysPieShopDbContextModelSnapshot : ModelSnapshot
@@ -87,6 +87,30 @@ namespace MvcCoreSample.Migrations
                     b.ToTable("Pies");
                 });
 
+            modelBuilder.Entity("BethanysPieShop.Models.ShoppingCartItem", b =>
+                {
+                    b.Property<int>("ShoppingCartItemId")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("ShoppingCartItemId"));
+
+                    b.Property<int>("Amount")
+                        .HasColumnType("int");
+
+                    b.Property<int>("PieId")
+                        .HasColumnType("int");
+
+                    b.Property<string>("ShoppingCartId")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.HasKey("ShoppingCartItemId");
+
+                    b.HasIndex("PieId");
+
+                    b.ToTable("ShoppingCartItems");
+                });
+
             modelBuilder.Entity("BethanysPieShop.Models.Pie", b =>
                 {
                     b.HasOne("BethanysPieShop.Models.Category", "Category")
@@ -96,6 +120,17 @@ namespace MvcCoreSample.Migrations
                         .IsRequired();
 
                     b.Navigation("Category");
+                });
+
+            modelBuilder.Entity("BethanysPieShop.Models.ShoppingCartItem", b =>
+                {
+                    b.HasOne("BethanysPieShop.Models.Pie", "Pie")
+                        .WithMany()
+                        .HasForeignKey("PieId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("Pie");
                 });
 
             modelBuilder.Entity("BethanysPieShop.Models.Category", b =>
