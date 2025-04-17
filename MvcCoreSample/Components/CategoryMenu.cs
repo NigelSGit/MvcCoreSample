@@ -3,18 +3,19 @@ using Microsoft.AspNetCore.Mvc;
 
 namespace BethanysPieShop.Components
 {
-    public class CategoryMenu : ViewComponent
+    public class CategoryMenuViewComponent : ViewComponent
     {
         private readonly ICategoryRepository _categoryRepository;
 
-        public CategoryMenu(ICategoryRepository categoryRepository)
+        public CategoryMenuViewComponent(ICategoryRepository categoryRepository)
         {
             _categoryRepository = categoryRepository;
         }
 
-        public IViewComponentResult Invoke()
+        public async Task<IViewComponentResult> InvokeAsync()
         {
             var categories = _categoryRepository.AllCategories.OrderBy(c => c.CategoryName);
+
             return View(categories);
         }
     }

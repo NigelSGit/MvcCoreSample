@@ -4,11 +4,11 @@ using Microsoft.AspNetCore.Mvc;
 
 namespace BethanysPieShop.Components
 {
-    public class ShoppingCartSummary: ViewComponent
+    public class ShoppingCartSummaryViewComponent: ViewComponent
     {
         private readonly IShoppingCart _shoppingCart;
 
-        public ShoppingCartSummary(IShoppingCart shoppingCart)
+        public ShoppingCartSummaryViewComponent(IShoppingCart shoppingCart)
         {
             _shoppingCart = shoppingCart;
         }
