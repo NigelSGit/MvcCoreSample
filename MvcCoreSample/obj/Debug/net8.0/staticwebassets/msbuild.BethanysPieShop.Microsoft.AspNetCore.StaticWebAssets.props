@@ -1,10 +1,28 @@
 ﻿<Project>
   <ItemGroup>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\BethanysPieShop.n3tal50gc5.bundle.scp.css'))">
+      <SourceType>Package</SourceType>
+      <SourceId>BethanysPieShop</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/BethanysPieShop</BasePath>
+      <RelativePath>BethanysPieShop.n3tal50gc5.bundle.scp.css</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>Reference</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName>ScopedCss</AssetTraitName>
+      <AssetTraitValue>ProjectBundle</AssetTraitValue>
+      <Fingerprint>n3tal50gc5</Fingerprint>
+      <Integrity>LeV01OHMg73HvalwG0EvPxouqqAu7rlahOZ3NkwPB6w=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\BethanysPieShop.n3tal50gc5.bundle.scp.css'))</OriginalItemSpec>
+    </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\css\site.css'))">
       <SourceType>Package</SourceType>
-      <SourceId>MvcCoreSample</SourceId>
+      <SourceId>BethanysPieShop</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
-      <BasePath>_content/MvcCoreSample</BasePath>
+      <BasePath>_content/BethanysPieShop</BasePath>
       <RelativePath>css/site.css</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
@@ -20,9 +38,9 @@
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Images\bethanys-pie-shop-logomark.png'))">
       <SourceType>Package</SourceType>
-      <SourceId>MvcCoreSample</SourceId>
+      <SourceId>BethanysPieShop</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
-      <BasePath>_content/MvcCoreSample</BasePath>
+      <BasePath>_content/BethanysPieShop</BasePath>
       <RelativePath>Images/bethanys-pie-shop-logomark.png</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
@@ -38,9 +56,9 @@
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Images\bethanys-pie-shop-logo_horiz-white.png'))">
       <SourceType>Package</SourceType>
-      <SourceId>MvcCoreSample</SourceId>
+      <SourceId>BethanysPieShop</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
-      <BasePath>_content/MvcCoreSample</BasePath>
+      <BasePath>_content/BethanysPieShop</BasePath>
       <RelativePath>Images/bethanys-pie-shop-logo_horiz-white.png</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
@@ -56,9 +74,9 @@
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Images\carousel1.jpg'))">
       <SourceType>Package</SourceType>
-      <SourceId>MvcCoreSample</SourceId>
+      <SourceId>BethanysPieShop</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
-      <BasePath>_content/MvcCoreSample</BasePath>
+      <BasePath>_content/BethanysPieShop</BasePath>
       <RelativePath>Images/carousel1.jpg</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
@@ -74,9 +92,9 @@
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Images\carousel2.jpg'))">
       <SourceType>Package</SourceType>
-      <SourceId>MvcCoreSample</SourceId>
+      <SourceId>BethanysPieShop</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
-      <BasePath>_content/MvcCoreSample</BasePath>
+      <BasePath>_content/BethanysPieShop</BasePath>
       <RelativePath>Images/carousel2.jpg</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
@@ -92,9 +110,9 @@
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Images\carousel3.jpg'))">
       <SourceType>Package</SourceType>
-      <SourceId>MvcCoreSample</SourceId>
+      <SourceId>BethanysPieShop</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
-      <BasePath>_content/MvcCoreSample</BasePath>
+      <BasePath>_content/BethanysPieShop</BasePath>
       <RelativePath>Images/carousel3.jpg</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
@@ -110,9 +128,9 @@
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Images\contact\contact.jpg'))">
       <SourceType>Package</SourceType>
-      <SourceId>MvcCoreSample</SourceId>
+      <SourceId>BethanysPieShop</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
-      <BasePath>_content/MvcCoreSample</BasePath>
+      <BasePath>_content/BethanysPieShop</BasePath>
       <RelativePath>Images/contact/contact.jpg</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
@@ -128,9 +146,9 @@
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\lib\bootstrap\css\bootstrap.css'))">
       <SourceType>Package</SourceType>
-      <SourceId>MvcCoreSample</SourceId>
+      <SourceId>BethanysPieShop</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
-      <BasePath>_content/MvcCoreSample</BasePath>
+      <BasePath>_content/BethanysPieShop</BasePath>
       <RelativePath>lib/bootstrap/css/bootstrap.css</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
@@ -146,9 +164,9 @@
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\lib\bootstrap\css\bootstrap-grid.css'))">
       <SourceType>Package</SourceType>
-      <SourceId>MvcCoreSample</SourceId>
+      <SourceId>BethanysPieShop</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
-      <BasePath>_content/MvcCoreSample</BasePath>
+      <BasePath>_content/BethanysPieShop</BasePath>
       <RelativePath>lib/bootstrap/css/bootstrap-grid.css</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
@@ -164,9 +182,9 @@
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\lib\bootstrap\css\bootstrap-grid.css.map'))">
       <SourceType>Package</SourceType>
-      <SourceId>MvcCoreSample</SourceId>
+      <SourceId>BethanysPieShop</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
-      <BasePath>_content/MvcCoreSample</BasePath>
+      <BasePath>_content/BethanysPieShop</BasePath>
       <RelativePath>lib/bootstrap/css/bootstrap-grid.css.map</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
@@ -182,9 +200,9 @@
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\lib\bootstrap\css\bootstrap-grid.min.css'))">
       <SourceType>Package</SourceType>
-      <SourceId>MvcCoreSample</SourceId>
+      <SourceId>BethanysPieShop</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
-      <BasePath>_content/MvcCoreSample</BasePath>
+      <BasePath>_content/BethanysPieShop</BasePath>
       <RelativePath>lib/bootstrap/css/bootstrap-grid.min.css</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
@@ -200,9 +218,9 @@
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\lib\bootstrap\css\bootstrap-grid.min.css.map'))">
       <SourceType>Package</SourceType>
-      <SourceId>MvcCoreSample</SourceId>
+      <SourceId>BethanysPieShop</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
-      <BasePath>_content/MvcCoreSample</BasePath>
+      <BasePath>_content/BethanysPieShop</BasePath>
       <RelativePath>lib/bootstrap/css/bootstrap-grid.min.css.map</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
@@ -218,9 +236,9 @@
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\lib\bootstrap\css\bootstrap-grid.rtl.css'))">
       <SourceType>Package</SourceType>
-      <SourceId>MvcCoreSample</SourceId>
+      <SourceId>BethanysPieShop</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
-      <BasePath>_content/MvcCoreSample</BasePath>
+      <BasePath>_content/BethanysPieShop</BasePath>
       <RelativePath>lib/bootstrap/css/bootstrap-grid.rtl.css</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
@@ -236,9 +254,9 @@
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\lib\bootstrap\css\bootstrap-grid.rtl.css.map'))">
       <SourceType>Package</SourceType>
-      <SourceId>MvcCoreSample</SourceId>
+      <SourceId>BethanysPieShop</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
-      <BasePath>_content/MvcCoreSample</BasePath>
+      <BasePath>_content/BethanysPieShop</BasePath>
       <RelativePath>lib/bootstrap/css/bootstrap-grid.rtl.css.map</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
@@ -254,9 +272,9 @@
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\lib\bootstrap\css\bootstrap-grid.rtl.min.css'))">
       <SourceType>Package</SourceType>
-      <SourceId>MvcCoreSample</SourceId>
+      <SourceId>BethanysPieShop</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
-      <BasePath>_content/MvcCoreSample</BasePath>
+      <BasePath>_content/BethanysPieShop</BasePath>
       <RelativePath>lib/bootstrap/css/bootstrap-grid.rtl.min.css</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
@@ -272,9 +290,9 @@
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\lib\bootstrap\css\bootstrap-grid.rtl.min.css.map'))">
       <SourceType>Package</SourceType>
-      <SourceId>MvcCoreSample</SourceId>
+      <SourceId>BethanysPieShop</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
-      <BasePath>_content/MvcCoreSample</BasePath>
+      <BasePath>_content/BethanysPieShop</BasePath>
       <RelativePath>lib/bootstrap/css/bootstrap-grid.rtl.min.css.map</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
@@ -290,9 +308,9 @@
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\lib\bootstrap\css\bootstrap-reboot.css'))">
       <SourceType>Package</SourceType>
-      <SourceId>MvcCoreSample</SourceId>
+      <SourceId>BethanysPieShop</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
-      <BasePath>_content/MvcCoreSample</BasePath>
+      <BasePath>_content/BethanysPieShop</BasePath>
       <RelativePath>lib/bootstrap/css/bootstrap-reboot.css</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
@@ -308,9 +326,9 @@
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\lib\bootstrap\css\bootstrap-reboot.css.map'))">
       <SourceType>Package</SourceType>
-      <SourceId>MvcCoreSample</SourceId>
+      <SourceId>BethanysPieShop</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
-      <BasePath>_content/MvcCoreSample</BasePath>
+      <BasePath>_content/BethanysPieShop</BasePath>
       <RelativePath>lib/bootstrap/css/bootstrap-reboot.css.map</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
@@ -326,9 +344,9 @@
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\lib\bootstrap\css\bootstrap-reboot.min.css'))">
       <SourceType>Package</SourceType>
-      <SourceId>MvcCoreSample</SourceId>
+      <SourceId>BethanysPieShop</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
-      <BasePath>_content/MvcCoreSample</BasePath>
+      <BasePath>_content/BethanysPieShop</BasePath>
       <RelativePath>lib/bootstrap/css/bootstrap-reboot.min.css</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
@@ -344,9 +362,9 @@
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\lib\bootstrap\css\bootstrap-reboot.min.css.map'))">
       <SourceType>Package</SourceType>
-      <SourceId>MvcCoreSample</SourceId>
+      <SourceId>BethanysPieShop</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
-      <BasePath>_content/MvcCoreSample</BasePath>
+      <BasePath>_content/BethanysPieShop</BasePath>
       <RelativePath>lib/bootstrap/css/bootstrap-reboot.min.css.map</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
@@ -362,9 +380,9 @@
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\lib\bootstrap\css\bootstrap-reboot.rtl.css'))">
       <SourceType>Package</SourceType>
-      <SourceId>MvcCoreSample</SourceId>
+      <SourceId>BethanysPieShop</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
-      <BasePath>_content/MvcCoreSample</BasePath>
+      <BasePath>_content/BethanysPieShop</BasePath>
       <RelativePath>lib/bootstrap/css/bootstrap-reboot.rtl.css</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
@@ -380,9 +398,9 @@
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\lib\bootstrap\css\bootstrap-reboot.rtl.css.map'))">
       <SourceType>Package</SourceType>
-      <SourceId>MvcCoreSample</SourceId>
+      <SourceId>BethanysPieShop</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
-      <BasePath>_content/MvcCoreSample</BasePath>
+      <BasePath>_content/BethanysPieShop</BasePath>
       <RelativePath>lib/bootstrap/css/bootstrap-reboot.rtl.css.map</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
@@ -398,9 +416,9 @@
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\lib\bootstrap\css\bootstrap-reboot.rtl.min.css'))">
       <SourceType>Package</SourceType>
-      <SourceId>MvcCoreSample</SourceId>
+      <SourceId>BethanysPieShop</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
-      <BasePath>_content/MvcCoreSample</BasePath>
+      <BasePath>_content/BethanysPieShop</BasePath>
       <RelativePath>lib/bootstrap/css/bootstrap-reboot.rtl.min.css</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
@@ -416,9 +434,9 @@
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\lib\bootstrap\css\bootstrap-reboot.rtl.min.css.map'))">
       <SourceType>Package</SourceType>
-      <SourceId>MvcCoreSample</SourceId>
+      <SourceId>BethanysPieShop</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
-      <BasePath>_content/MvcCoreSample</BasePath>
+      <BasePath>_content/BethanysPieShop</BasePath>
       <RelativePath>lib/bootstrap/css/bootstrap-reboot.rtl.min.css.map</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
@@ -434,9 +452,9 @@
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\lib\bootstrap\css\bootstrap-utilities.css'))">
       <SourceType>Package</SourceType>
-      <SourceId>MvcCoreSample</SourceId>
+      <SourceId>BethanysPieShop</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
-      <BasePath>_content/MvcCoreSample</BasePath>
+      <BasePath>_content/BethanysPieShop</BasePath>
       <RelativePath>lib/bootstrap/css/bootstrap-utilities.css</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
@@ -452,9 +470,9 @@
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\lib\bootstrap\css\bootstrap-utilities.css.map'))">
       <SourceType>Package</SourceType>
-      <SourceId>MvcCoreSample</SourceId>
+      <SourceId>BethanysPieShop</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
-      <BasePath>_content/MvcCoreSample</BasePath>
+      <BasePath>_content/BethanysPieShop</BasePath>
       <RelativePath>lib/bootstrap/css/bootstrap-utilities.css.map</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
@@ -470,9 +488,9 @@
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\lib\bootstrap\css\bootstrap-utilities.min.css'))">
       <SourceType>Package</SourceType>
-      <SourceId>MvcCoreSample</SourceId>
+      <SourceId>BethanysPieShop</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
-      <BasePath>_content/MvcCoreSample</BasePath>
+      <BasePath>_content/BethanysPieShop</BasePath>
       <RelativePath>lib/bootstrap/css/bootstrap-utilities.min.css</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
@@ -488,9 +506,9 @@
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\lib\bootstrap\css\bootstrap-utilities.min.css.map'))">
       <SourceType>Package</SourceType>
-      <SourceId>MvcCoreSample</SourceId>
+      <SourceId>BethanysPieShop</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
-      <BasePath>_content/MvcCoreSample</BasePath>
+      <BasePath>_content/BethanysPieShop</BasePath>
       <RelativePath>lib/bootstrap/css/bootstrap-utilities.min.css.map</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
@@ -506,9 +524,9 @@
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\lib\bootstrap\css\bootstrap-utilities.rtl.css'))">
       <SourceType>Package</SourceType>
-      <SourceId>MvcCoreSample</SourceId>
+      <SourceId>BethanysPieShop</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
-      <BasePath>_content/MvcCoreSample</BasePath>
+      <BasePath>_content/BethanysPieShop</BasePath>
       <RelativePath>lib/bootstrap/css/bootstrap-utilities.rtl.css</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
@@ -524,9 +542,9 @@
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\lib\bootstrap\css\bootstrap-utilities.rtl.css.map'))">
       <SourceType>Package</SourceType>
-      <SourceId>MvcCoreSample</SourceId>
+      <SourceId>BethanysPieShop</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
-      <BasePath>_content/MvcCoreSample</BasePath>
+      <BasePath>_content/BethanysPieShop</BasePath>
       <RelativePath>lib/bootstrap/css/bootstrap-utilities.rtl.css.map</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
@@ -542,9 +560,9 @@
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\lib\bootstrap\css\bootstrap-utilities.rtl.min.css'))">
       <SourceType>Package</SourceType>
-      <SourceId>MvcCoreSample</SourceId>
+      <SourceId>BethanysPieShop</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
-      <BasePath>_content/MvcCoreSample</BasePath>
+      <BasePath>_content/BethanysPieShop</BasePath>
       <RelativePath>lib/bootstrap/css/bootstrap-utilities.rtl.min.css</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
@@ -560,9 +578,9 @@
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\lib\bootstrap\css\bootstrap-utilities.rtl.min.css.map'))">
       <SourceType>Package</SourceType>
-      <SourceId>MvcCoreSample</SourceId>
+      <SourceId>BethanysPieShop</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
-      <BasePath>_content/MvcCoreSample</BasePath>
+      <BasePath>_content/BethanysPieShop</BasePath>
       <RelativePath>lib/bootstrap/css/bootstrap-utilities.rtl.min.css.map</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
@@ -578,9 +596,9 @@
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\lib\bootstrap\css\bootstrap.css.map'))">
       <SourceType>Package</SourceType>
-      <SourceId>MvcCoreSample</SourceId>
+      <SourceId>BethanysPieShop</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
-      <BasePath>_content/MvcCoreSample</BasePath>
+      <BasePath>_content/BethanysPieShop</BasePath>
       <RelativePath>lib/bootstrap/css/bootstrap.css.map</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
@@ -596,9 +614,9 @@
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\lib\bootstrap\css\bootstrap.min.css'))">
       <SourceType>Package</SourceType>
-      <SourceId>MvcCoreSample</SourceId>
+      <SourceId>BethanysPieShop</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
-      <BasePath>_content/MvcCoreSample</BasePath>
+      <BasePath>_content/BethanysPieShop</BasePath>
       <RelativePath>lib/bootstrap/css/bootstrap.min.css</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
@@ -614,9 +632,9 @@
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\lib\bootstrap\css\bootstrap.min.css.map'))">
       <SourceType>Package</SourceType>
-      <SourceId>MvcCoreSample</SourceId>
+      <SourceId>BethanysPieShop</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
-      <BasePath>_content/MvcCoreSample</BasePath>
+      <BasePath>_content/BethanysPieShop</BasePath>
       <RelativePath>lib/bootstrap/css/bootstrap.min.css.map</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
@@ -632,9 +650,9 @@
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\lib\bootstrap\css\bootstrap.rtl.css'))">
       <SourceType>Package</SourceType>
-      <SourceId>MvcCoreSample</SourceId>
+      <SourceId>BethanysPieShop</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
-      <BasePath>_content/MvcCoreSample</BasePath>
+      <BasePath>_content/BethanysPieShop</BasePath>
       <RelativePath>lib/bootstrap/css/bootstrap.rtl.css</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
@@ -650,9 +668,9 @@
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\lib\bootstrap\css\bootstrap.rtl.css.map'))">
       <SourceType>Package</SourceType>
-      <SourceId>MvcCoreSample</SourceId>
+      <SourceId>BethanysPieShop</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
-      <BasePath>_content/MvcCoreSample</BasePath>
+      <BasePath>_content/BethanysPieShop</BasePath>
       <RelativePath>lib/bootstrap/css/bootstrap.rtl.css.map</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
@@ -668,9 +686,9 @@
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\lib\bootstrap\css\bootstrap.rtl.min.css'))">
       <SourceType>Package</SourceType>
-      <SourceId>MvcCoreSample</SourceId>
+      <SourceId>BethanysPieShop</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
-      <BasePath>_content/MvcCoreSample</BasePath>
+      <BasePath>_content/BethanysPieShop</BasePath>
       <RelativePath>lib/bootstrap/css/bootstrap.rtl.min.css</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
@@ -686,9 +704,9 @@
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\lib\bootstrap\css\bootstrap.rtl.min.css.map'))">
       <SourceType>Package</SourceType>
-      <SourceId>MvcCoreSample</SourceId>
+      <SourceId>BethanysPieShop</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
-      <BasePath>_content/MvcCoreSample</BasePath>
+      <BasePath>_content/BethanysPieShop</BasePath>
       <RelativePath>lib/bootstrap/css/bootstrap.rtl.min.css.map</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
@@ -704,9 +722,9 @@
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\lib\bootstrap\js\bootstrap.js'))">
       <SourceType>Package</SourceType>
-      <SourceId>MvcCoreSample</SourceId>
+      <SourceId>BethanysPieShop</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
-      <BasePath>_content/MvcCoreSample</BasePath>
+      <BasePath>_content/BethanysPieShop</BasePath>
       <RelativePath>lib/bootstrap/js/bootstrap.js</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
@@ -722,9 +740,9 @@
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\lib\bootstrap\js\bootstrap.bundle.js'))">
       <SourceType>Package</SourceType>
-      <SourceId>MvcCoreSample</SourceId>
+      <SourceId>BethanysPieShop</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
-      <BasePath>_content/MvcCoreSample</BasePath>
+      <BasePath>_content/BethanysPieShop</BasePath>
       <RelativePath>lib/bootstrap/js/bootstrap.bundle.js</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
@@ -740,9 +758,9 @@
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\lib\bootstrap\js\bootstrap.bundle.js.map'))">
       <SourceType>Package</SourceType>
-      <SourceId>MvcCoreSample</SourceId>
+      <SourceId>BethanysPieShop</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
-      <BasePath>_content/MvcCoreSample</BasePath>
+      <BasePath>_content/BethanysPieShop</BasePath>
       <RelativePath>lib/bootstrap/js/bootstrap.bundle.js.map</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
@@ -758,9 +776,9 @@
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\lib\bootstrap\js\bootstrap.bundle.min.js'))">
       <SourceType>Package</SourceType>
-      <SourceId>MvcCoreSample</SourceId>
+      <SourceId>BethanysPieShop</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
-      <BasePath>_content/MvcCoreSample</BasePath>
+      <BasePath>_content/BethanysPieShop</BasePath>
       <RelativePath>lib/bootstrap/js/bootstrap.bundle.min.js</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
@@ -776,9 +794,9 @@
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\lib\bootstrap\js\bootstrap.bundle.min.js.map'))">
       <SourceType>Package</SourceType>
-      <SourceId>MvcCoreSample</SourceId>
+      <SourceId>BethanysPieShop</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
-      <BasePath>_content/MvcCoreSample</BasePath>
+      <BasePath>_content/BethanysPieShop</BasePath>
       <RelativePath>lib/bootstrap/js/bootstrap.bundle.min.js.map</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
@@ -794,9 +812,9 @@
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\lib\bootstrap\js\bootstrap.esm.js'))">
       <SourceType>Package</SourceType>
-      <SourceId>MvcCoreSample</SourceId>
+      <SourceId>BethanysPieShop</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
-      <BasePath>_content/MvcCoreSample</BasePath>
+      <BasePath>_content/BethanysPieShop</BasePath>
       <RelativePath>lib/bootstrap/js/bootstrap.esm.js</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
@@ -812,9 +830,9 @@
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\lib\bootstrap\js\bootstrap.esm.js.map'))">
       <SourceType>Package</SourceType>
-      <SourceId>MvcCoreSample</SourceId>
+      <SourceId>BethanysPieShop</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
-      <BasePath>_content/MvcCoreSample</BasePath>
+      <BasePath>_content/BethanysPieShop</BasePath>
       <RelativePath>lib/bootstrap/js/bootstrap.esm.js.map</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
@@ -830,9 +848,9 @@
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\lib\bootstrap\js\bootstrap.esm.min.js'))">
       <SourceType>Package</SourceType>
-      <SourceId>MvcCoreSample</SourceId>
+      <SourceId>BethanysPieShop</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
-      <BasePath>_content/MvcCoreSample</BasePath>
+      <BasePath>_content/BethanysPieShop</BasePath>
       <RelativePath>lib/bootstrap/js/bootstrap.esm.min.js</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
@@ -848,9 +866,9 @@
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\lib\bootstrap\js\bootstrap.esm.min.js.map'))">
       <SourceType>Package</SourceType>
-      <SourceId>MvcCoreSample</SourceId>
+      <SourceId>BethanysPieShop</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
-      <BasePath>_content/MvcCoreSample</BasePath>
+      <BasePath>_content/BethanysPieShop</BasePath>
       <RelativePath>lib/bootstrap/js/bootstrap.esm.min.js.map</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
@@ -866,9 +884,9 @@
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\lib\bootstrap\js\bootstrap.js.map'))">
       <SourceType>Package</SourceType>
-      <SourceId>MvcCoreSample</SourceId>
+      <SourceId>BethanysPieShop</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
-      <BasePath>_content/MvcCoreSample</BasePath>
+      <BasePath>_content/BethanysPieShop</BasePath>
       <RelativePath>lib/bootstrap/js/bootstrap.js.map</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
@@ -884,9 +902,9 @@
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\lib\bootstrap\js\bootstrap.min.js'))">
       <SourceType>Package</SourceType>
-      <SourceId>MvcCoreSample</SourceId>
+      <SourceId>BethanysPieShop</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
-      <BasePath>_content/MvcCoreSample</BasePath>
+      <BasePath>_content/BethanysPieShop</BasePath>
       <RelativePath>lib/bootstrap/js/bootstrap.min.js</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
@@ -902,9 +920,9 @@
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\lib\bootstrap\js\bootstrap.min.js.map'))">
       <SourceType>Package</SourceType>
-      <SourceId>MvcCoreSample</SourceId>
+      <SourceId>BethanysPieShop</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
-      <BasePath>_content/MvcCoreSample</BasePath>
+      <BasePath>_content/BethanysPieShop</BasePath>
       <RelativePath>lib/bootstrap/js/bootstrap.min.js.map</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
@@ -920,9 +938,9 @@
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\lib\bootstrap\scss\bootstrap.scss'))">
       <SourceType>Package</SourceType>
-      <SourceId>MvcCoreSample</SourceId>
+      <SourceId>BethanysPieShop</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
-      <BasePath>_content/MvcCoreSample</BasePath>
+      <BasePath>_content/BethanysPieShop</BasePath>
       <RelativePath>lib/bootstrap/scss/bootstrap.scss</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
@@ -938,9 +956,9 @@
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\lib\bootstrap\scss\bootstrap-grid.scss'))">
       <SourceType>Package</SourceType>
-      <SourceId>MvcCoreSample</SourceId>
+      <SourceId>BethanysPieShop</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
-      <BasePath>_content/MvcCoreSample</BasePath>
+      <BasePath>_content/BethanysPieShop</BasePath>
       <RelativePath>lib/bootstrap/scss/bootstrap-grid.scss</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
@@ -956,9 +974,9 @@
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\lib\bootstrap\scss\bootstrap-reboot.scss'))">
       <SourceType>Package</SourceType>
-      <SourceId>MvcCoreSample</SourceId>
+      <SourceId>BethanysPieShop</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
-      <BasePath>_content/MvcCoreSample</BasePath>
+      <BasePath>_content/BethanysPieShop</BasePath>
       <RelativePath>lib/bootstrap/scss/bootstrap-reboot.scss</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
@@ -974,9 +992,9 @@
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\lib\bootstrap\scss\bootstrap-utilities.scss'))">
       <SourceType>Package</SourceType>
-      <SourceId>MvcCoreSample</SourceId>
+      <SourceId>BethanysPieShop</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
-      <BasePath>_content/MvcCoreSample</BasePath>
+      <BasePath>_content/BethanysPieShop</BasePath>
       <RelativePath>lib/bootstrap/scss/bootstrap-utilities.scss</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
@@ -992,9 +1010,9 @@
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\lib\bootstrap\scss\forms\_floating-labels.scss'))">
       <SourceType>Package</SourceType>
-      <SourceId>MvcCoreSample</SourceId>
+      <SourceId>BethanysPieShop</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
-      <BasePath>_content/MvcCoreSample</BasePath>
+      <BasePath>_content/BethanysPieShop</BasePath>
       <RelativePath>lib/bootstrap/scss/forms/_floating-labels.scss</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
@@ -1010,9 +1028,9 @@
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\lib\bootstrap\scss\forms\_form-check.scss'))">
       <SourceType>Package</SourceType>
-      <SourceId>MvcCoreSample</SourceId>
+      <SourceId>BethanysPieShop</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
-      <BasePath>_content/MvcCoreSample</BasePath>
+      <BasePath>_content/BethanysPieShop</BasePath>
       <RelativePath>lib/bootstrap/scss/forms/_form-check.scss</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
@@ -1028,9 +1046,9 @@
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\lib\bootstrap\scss\forms\_form-control.scss'))">
       <SourceType>Package</SourceType>
-      <SourceId>MvcCoreSample</SourceId>
+      <SourceId>BethanysPieShop</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
-      <BasePath>_content/MvcCoreSample</BasePath>
+      <BasePath>_content/BethanysPieShop</BasePath>
       <RelativePath>lib/bootstrap/scss/forms/_form-control.scss</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
@@ -1046,9 +1064,9 @@
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\lib\bootstrap\scss\forms\_form-range.scss'))">
       <SourceType>Package</SourceType>
-      <SourceId>MvcCoreSample</SourceId>
+      <SourceId>BethanysPieShop</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
-      <BasePath>_content/MvcCoreSample</BasePath>
+      <BasePath>_content/BethanysPieShop</BasePath>
       <RelativePath>lib/bootstrap/scss/forms/_form-range.scss</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
@@ -1064,9 +1082,9 @@
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\lib\bootstrap\scss\forms\_form-select.scss'))">
       <SourceType>Package</SourceType>
-      <SourceId>MvcCoreSample</SourceId>
+      <SourceId>BethanysPieShop</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
-      <BasePath>_content/MvcCoreSample</BasePath>
+      <BasePath>_content/BethanysPieShop</BasePath>
       <RelativePath>lib/bootstrap/scss/forms/_form-select.scss</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
@@ -1082,9 +1100,9 @@
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\lib\bootstrap\scss\forms\_form-text.scss'))">
       <SourceType>Package</SourceType>
-      <SourceId>MvcCoreSample</SourceId>
+      <SourceId>BethanysPieShop</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
-      <BasePath>_content/MvcCoreSample</BasePath>
+      <BasePath>_content/BethanysPieShop</BasePath>
       <RelativePath>lib/bootstrap/scss/forms/_form-text.scss</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
@@ -1100,9 +1118,9 @@
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\lib\bootstrap\scss\forms\_input-group.scss'))">
       <SourceType>Package</SourceType>
-      <SourceId>MvcCoreSample</SourceId>
+      <SourceId>BethanysPieShop</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
-      <BasePath>_content/MvcCoreSample</BasePath>
+      <BasePath>_content/BethanysPieShop</BasePath>
       <RelativePath>lib/bootstrap/scss/forms/_input-group.scss</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
@@ -1118,9 +1136,9 @@
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\lib\bootstrap\scss\forms\_labels.scss'))">
       <SourceType>Package</SourceType>
-      <SourceId>MvcCoreSample</SourceId>
+      <SourceId>BethanysPieShop</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
-      <BasePath>_content/MvcCoreSample</BasePath>
+      <BasePath>_content/BethanysPieShop</BasePath>
       <RelativePath>lib/bootstrap/scss/forms/_labels.scss</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
@@ -1136,9 +1154,9 @@
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\lib\bootstrap\scss\forms\_validation.scss'))">
       <SourceType>Package</SourceType>
-      <SourceId>MvcCoreSample</SourceId>
+      <SourceId>BethanysPieShop</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
-      <BasePath>_content/MvcCoreSample</BasePath>
+      <BasePath>_content/BethanysPieShop</BasePath>
       <RelativePath>lib/bootstrap/scss/forms/_validation.scss</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
@@ -1154,9 +1172,9 @@
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\lib\bootstrap\scss\helpers\_clearfix.scss'))">
       <SourceType>Package</SourceType>
-      <SourceId>MvcCoreSample</SourceId>
+      <SourceId>BethanysPieShop</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
-      <BasePath>_content/MvcCoreSample</BasePath>
+      <BasePath>_content/BethanysPieShop</BasePath>
       <RelativePath>lib/bootstrap/scss/helpers/_clearfix.scss</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
@@ -1172,9 +1190,9 @@
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\lib\bootstrap\scss\helpers\_color-bg.scss'))">
       <SourceType>Package</SourceType>
-      <SourceId>MvcCoreSample</SourceId>
+      <SourceId>BethanysPieShop</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
-      <BasePath>_content/MvcCoreSample</BasePath>
+      <BasePath>_content/BethanysPieShop</BasePath>
       <RelativePath>lib/bootstrap/scss/helpers/_color-bg.scss</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
@@ -1190,9 +1208,9 @@
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\lib\bootstrap\scss\helpers\_colored-links.scss'))">
       <SourceType>Package</SourceType>
-      <SourceId>MvcCoreSample</SourceId>
+      <SourceId>BethanysPieShop</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
-      <BasePath>_content/MvcCoreSample</BasePath>
+      <BasePath>_content/BethanysPieShop</BasePath>
       <RelativePath>lib/bootstrap/scss/helpers/_colored-links.scss</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
@@ -1208,9 +1226,9 @@
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\lib\bootstrap\scss\helpers\_focus-ring.scss'))">
       <SourceType>Package</SourceType>
-      <SourceId>MvcCoreSample</SourceId>
+      <SourceId>BethanysPieShop</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
-      <BasePath>_content/MvcCoreSample</BasePath>
+      <BasePath>_content/BethanysPieShop</BasePath>
       <RelativePath>lib/bootstrap/scss/helpers/_focus-ring.scss</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
@@ -1226,9 +1244,9 @@
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\lib\bootstrap\scss\helpers\_icon-link.scss'))">
       <SourceType>Package</SourceType>
-      <SourceId>MvcCoreSample</SourceId>
+      <SourceId>BethanysPieShop</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
-      <BasePath>_content/MvcCoreSample</BasePath>
+      <BasePath>_content/BethanysPieShop</BasePath>
       <RelativePath>lib/bootstrap/scss/helpers/_icon-link.scss</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
@@ -1244,9 +1262,9 @@
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\lib\bootstrap\scss\helpers\_position.scss'))">
       <SourceType>Package</SourceType>
-      <SourceId>MvcCoreSample</SourceId>
+      <SourceId>BethanysPieShop</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
-      <BasePath>_content/MvcCoreSample</BasePath>
+      <BasePath>_content/BethanysPieShop</BasePath>
       <RelativePath>lib/bootstrap/scss/helpers/_position.scss</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
@@ -1262,9 +1280,9 @@
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\lib\bootstrap\scss\helpers\_ratio.scss'))">
       <SourceType>Package</SourceType>
-      <SourceId>MvcCoreSample</SourceId>
+      <SourceId>BethanysPieShop</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
-      <BasePath>_content/MvcCoreSample</BasePath>
+      <BasePath>_content/BethanysPieShop</BasePath>
       <RelativePath>lib/bootstrap/scss/helpers/_ratio.scss</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
@@ -1280,9 +1298,9 @@
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\lib\bootstrap\scss\helpers\_stacks.scss'))">
       <SourceType>Package</SourceType>
-      <SourceId>MvcCoreSample</SourceId>
+      <SourceId>BethanysPieShop</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
-      <BasePath>_content/MvcCoreSample</BasePath>
+      <BasePath>_content/BethanysPieShop</BasePath>
       <RelativePath>lib/bootstrap/scss/helpers/_stacks.scss</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
@@ -1298,9 +1316,9 @@
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\lib\bootstrap\scss\helpers\_stretched-link.scss'))">
       <SourceType>Package</SourceType>
-      <SourceId>MvcCoreSample</SourceId>
+      <SourceId>BethanysPieShop</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
-      <BasePath>_content/MvcCoreSample</BasePath>
+      <BasePath>_content/BethanysPieShop</BasePath>
       <RelativePath>lib/bootstrap/scss/helpers/_stretched-link.scss</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
@@ -1316,9 +1334,9 @@
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\lib\bootstrap\scss\helpers\_text-truncation.scss'))">
       <SourceType>Package</SourceType>
-      <SourceId>MvcCoreSample</SourceId>
+      <SourceId>BethanysPieShop</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
-      <BasePath>_content/MvcCoreSample</BasePath>
+      <BasePath>_content/BethanysPieShop</BasePath>
       <RelativePath>lib/bootstrap/scss/helpers/_text-truncation.scss</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
@@ -1334,9 +1352,9 @@
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\lib\bootstrap\scss\helpers\_visually-hidden.scss'))">
       <SourceType>Package</SourceType>
-      <SourceId>MvcCoreSample</SourceId>
+      <SourceId>BethanysPieShop</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
-      <BasePath>_content/MvcCoreSample</BasePath>
+      <BasePath>_content/BethanysPieShop</BasePath>
       <RelativePath>lib/bootstrap/scss/helpers/_visually-hidden.scss</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
@@ -1352,9 +1370,9 @@
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\lib\bootstrap\scss\helpers\_vr.scss'))">
       <SourceType>Package</SourceType>
-      <SourceId>MvcCoreSample</SourceId>
+      <SourceId>BethanysPieShop</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
-      <BasePath>_content/MvcCoreSample</BasePath>
+      <BasePath>_content/BethanysPieShop</BasePath>
       <RelativePath>lib/bootstrap/scss/helpers/_vr.scss</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
@@ -1370,9 +1388,9 @@
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\lib\bootstrap\scss\mixins\_alert.scss'))">
       <SourceType>Package</SourceType>
-      <SourceId>MvcCoreSample</SourceId>
+      <SourceId>BethanysPieShop</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
-      <BasePath>_content/MvcCoreSample</BasePath>
+      <BasePath>_content/BethanysPieShop</BasePath>
       <RelativePath>lib/bootstrap/scss/mixins/_alert.scss</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
@@ -1388,9 +1406,9 @@
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\lib\bootstrap\scss\mixins\_backdrop.scss'))">
       <SourceType>Package</SourceType>
-      <SourceId>MvcCoreSample</SourceId>
+      <SourceId>BethanysPieShop</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
-      <BasePath>_content/MvcCoreSample</BasePath>
+      <BasePath>_content/BethanysPieShop</BasePath>
       <RelativePath>lib/bootstrap/scss/mixins/_backdrop.scss</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
@@ -1406,9 +1424,9 @@
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\lib\bootstrap\scss\mixins\_banner.scss'))">
       <SourceType>Package</SourceType>
-      <SourceId>MvcCoreSample</SourceId>
+      <SourceId>BethanysPieShop</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
-      <BasePath>_content/MvcCoreSample</BasePath>
+      <BasePath>_content/BethanysPieShop</BasePath>
       <RelativePath>lib/bootstrap/scss/mixins/_banner.scss</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
@@ -1424,9 +1442,9 @@
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\lib\bootstrap\scss\mixins\_border-radius.scss'))">
       <SourceType>Package</SourceType>
-      <SourceId>MvcCoreSample</SourceId>
+      <SourceId>BethanysPieShop</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
-      <BasePath>_content/MvcCoreSample</BasePath>
+      <BasePath>_content/BethanysPieShop</BasePath>
       <RelativePath>lib/bootstrap/scss/mixins/_border-radius.scss</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
@@ -1442,9 +1460,9 @@
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\lib\bootstrap\scss\mixins\_box-shadow.scss'))">
       <SourceType>Package</SourceType>
-      <SourceId>MvcCoreSample</SourceId>
+      <SourceId>BethanysPieShop</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
-      <BasePath>_content/MvcCoreSample</BasePath>
+      <BasePath>_content/BethanysPieShop</BasePath>
       <RelativePath>lib/bootstrap/scss/mixins/_box-shadow.scss</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
@@ -1460,9 +1478,9 @@
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\lib\bootstrap\scss\mixins\_breakpoints.scss'))">
       <SourceType>Package</SourceType>
-      <SourceId>MvcCoreSample</SourceId>
+      <SourceId>BethanysPieShop</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
-      <BasePath>_content/MvcCoreSample</BasePath>
+      <BasePath>_content/BethanysPieShop</BasePath>
       <RelativePath>lib/bootstrap/scss/mixins/_breakpoints.scss</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
@@ -1478,9 +1496,9 @@
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\lib\bootstrap\scss\mixins\_buttons.scss'))">
       <SourceType>Package</SourceType>
-      <SourceId>MvcCoreSample</SourceId>
+      <SourceId>BethanysPieShop</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
-      <BasePath>_content/MvcCoreSample</BasePath>
+      <BasePath>_content/BethanysPieShop</BasePath>
       <RelativePath>lib/bootstrap/scss/mixins/_buttons.scss</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
@@ -1496,9 +1514,9 @@
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\lib\bootstrap\scss\mixins\_caret.scss'))">
       <SourceType>Package</SourceType>
-      <SourceId>MvcCoreSample</SourceId>
+      <SourceId>BethanysPieShop</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
-      <BasePath>_content/MvcCoreSample</BasePath>
+      <BasePath>_content/BethanysPieShop</BasePath>
       <RelativePath>lib/bootstrap/scss/mixins/_caret.scss</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
@@ -1514,9 +1532,9 @@
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\lib\bootstrap\scss\mixins\_clearfix.scss'))">
       <SourceType>Package</SourceType>
-      <SourceId>MvcCoreSample</SourceId>
+      <SourceId>BethanysPieShop</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
-      <BasePath>_content/MvcCoreSample</BasePath>
+      <BasePath>_content/BethanysPieShop</BasePath>
       <RelativePath>lib/bootstrap/scss/mixins/_clearfix.scss</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
@@ -1532,9 +1550,9 @@
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\lib\bootstrap\scss\mixins\_color-mode.scss'))">
       <SourceType>Package</SourceType>
-      <SourceId>MvcCoreSample</SourceId>
+      <SourceId>BethanysPieShop</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
-      <BasePath>_content/MvcCoreSample</BasePath>
+      <BasePath>_content/BethanysPieShop</BasePath>
       <RelativePath>lib/bootstrap/scss/mixins/_color-mode.scss</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
@@ -1550,9 +1568,9 @@
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\lib\bootstrap\scss\mixins\_color-scheme.scss'))">
       <SourceType>Package</SourceType>
-      <SourceId>MvcCoreSample</SourceId>
+      <SourceId>BethanysPieShop</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
-      <BasePath>_content/MvcCoreSample</BasePath>
+      <BasePath>_content/BethanysPieShop</BasePath>
       <RelativePath>lib/bootstrap/scss/mixins/_color-scheme.scss</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
@@ -1568,9 +1586,9 @@
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\lib\bootstrap\scss\mixins\_container.scss'))">
       <SourceType>Package</SourceType>
-      <SourceId>MvcCoreSample</SourceId>
+      <SourceId>BethanysPieShop</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
-      <BasePath>_content/MvcCoreSample</BasePath>
+      <BasePath>_content/BethanysPieShop</BasePath>
       <RelativePath>lib/bootstrap/scss/mixins/_container.scss</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
@@ -1586,9 +1604,9 @@
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\lib\bootstrap\scss\mixins\_deprecate.scss'))">
       <SourceType>Package</SourceType>
-      <SourceId>MvcCoreSample</SourceId>
+      <SourceId>BethanysPieShop</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
-      <BasePath>_content/MvcCoreSample</BasePath>
+      <BasePath>_content/BethanysPieShop</BasePath>
       <RelativePath>lib/bootstrap/scss/mixins/_deprecate.scss</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
@@ -1604,9 +1622,9 @@
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\lib\bootstrap\scss\mixins\_forms.scss'))">
       <SourceType>Package</SourceType>
-      <SourceId>MvcCoreSample</SourceId>
+      <SourceId>BethanysPieShop</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
-      <BasePath>_content/MvcCoreSample</BasePath>
+      <BasePath>_content/BethanysPieShop</BasePath>
       <RelativePath>lib/bootstrap/scss/mixins/_forms.scss</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
@@ -1622,9 +1640,9 @@
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\lib\bootstrap\scss\mixins\_gradients.scss'))">
       <SourceType>Package</SourceType>
-      <SourceId>MvcCoreSample</SourceId>
+      <SourceId>BethanysPieShop</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
-      <BasePath>_content/MvcCoreSample</BasePath>
+      <BasePath>_content/BethanysPieShop</BasePath>
       <RelativePath>lib/bootstrap/scss/mixins/_gradients.scss</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
@@ -1640,9 +1658,9 @@
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\lib\bootstrap\scss\mixins\_grid.scss'))">
       <SourceType>Package</SourceType>
-      <SourceId>MvcCoreSample</SourceId>
+      <SourceId>BethanysPieShop</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
-      <BasePath>_content/MvcCoreSample</BasePath>
+      <BasePath>_content/BethanysPieShop</BasePath>
       <RelativePath>lib/bootstrap/scss/mixins/_grid.scss</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
@@ -1658,9 +1676,9 @@
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\lib\bootstrap\scss\mixins\_image.scss'))">
       <SourceType>Package</SourceType>
-      <SourceId>MvcCoreSample</SourceId>
+      <SourceId>BethanysPieShop</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
-      <BasePath>_content/MvcCoreSample</BasePath>
+      <BasePath>_content/BethanysPieShop</BasePath>
       <RelativePath>lib/bootstrap/scss/mixins/_image.scss</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
@@ -1676,9 +1694,9 @@
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\lib\bootstrap\scss\mixins\_list-group.scss'))">
       <SourceType>Package</SourceType>
-      <SourceId>MvcCoreSample</SourceId>
+      <SourceId>BethanysPieShop</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
-      <BasePath>_content/MvcCoreSample</BasePath>
+      <BasePath>_content/BethanysPieShop</BasePath>
       <RelativePath>lib/bootstrap/scss/mixins/_list-group.scss</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
@@ -1694,9 +1712,9 @@
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\lib\bootstrap\scss\mixins\_lists.scss'))">
       <SourceType>Package</SourceType>
-      <SourceId>MvcCoreSample</SourceId>
+      <SourceId>BethanysPieShop</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
-      <BasePath>_content/MvcCoreSample</BasePath>
+      <BasePath>_content/BethanysPieShop</BasePath>
       <RelativePath>lib/bootstrap/scss/mixins/_lists.scss</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
@@ -1712,9 +1730,9 @@
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\lib\bootstrap\scss\mixins\_pagination.scss'))">
       <SourceType>Package</SourceType>
-      <SourceId>MvcCoreSample</SourceId>
+      <SourceId>BethanysPieShop</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
-      <BasePath>_content/MvcCoreSample</BasePath>
+      <BasePath>_content/BethanysPieShop</BasePath>
       <RelativePath>lib/bootstrap/scss/mixins/_pagination.scss</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
@@ -1730,9 +1748,9 @@
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\lib\bootstrap\scss\mixins\_reset-text.scss'))">
       <SourceType>Package</SourceType>
-      <SourceId>MvcCoreSample</SourceId>
+      <SourceId>BethanysPieShop</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
-      <BasePath>_content/MvcCoreSample</BasePath>
+      <BasePath>_content/BethanysPieShop</BasePath>
       <RelativePath>lib/bootstrap/scss/mixins/_reset-text.scss</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
@@ -1748,9 +1766,9 @@
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\lib\bootstrap\scss\mixins\_resize.scss'))">
       <SourceType>Package</SourceType>
-      <SourceId>MvcCoreSample</SourceId>
+      <SourceId>BethanysPieShop</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
-      <BasePath>_content/MvcCoreSample</BasePath>
+      <BasePath>_content/BethanysPieShop</BasePath>
       <RelativePath>lib/bootstrap/scss/mixins/_resize.scss</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
@@ -1766,9 +1784,9 @@
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\lib\bootstrap\scss\mixins\_table-variants.scss'))">
       <SourceType>Package</SourceType>
-      <SourceId>MvcCoreSample</SourceId>
+      <SourceId>BethanysPieShop</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
-      <BasePath>_content/MvcCoreSample</BasePath>
+      <BasePath>_content/BethanysPieShop</BasePath>
       <RelativePath>lib/bootstrap/scss/mixins/_table-variants.scss</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
@@ -1784,9 +1802,9 @@
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\lib\bootstrap\scss\mixins\_text-truncate.scss'))">
       <SourceType>Package</SourceType>
-      <SourceId>MvcCoreSample</SourceId>
+      <SourceId>BethanysPieShop</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
-      <BasePath>_content/MvcCoreSample</BasePath>
+      <BasePath>_content/BethanysPieShop</BasePath>
       <RelativePath>lib/bootstrap/scss/mixins/_text-truncate.scss</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
@@ -1802,9 +1820,9 @@
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\lib\bootstrap\scss\mixins\_transition.scss'))">
       <SourceType>Package</SourceType>
-      <SourceId>MvcCoreSample</SourceId>
+      <SourceId>BethanysPieShop</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
-      <BasePath>_content/MvcCoreSample</BasePath>
+      <BasePath>_content/BethanysPieShop</BasePath>
       <RelativePath>lib/bootstrap/scss/mixins/_transition.scss</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
@@ -1820,9 +1838,9 @@
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\lib\bootstrap\scss\mixins\_utilities.scss'))">
       <SourceType>Package</SourceType>
-      <SourceId>MvcCoreSample</SourceId>
+      <SourceId>BethanysPieShop</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
-      <BasePath>_content/MvcCoreSample</BasePath>
+      <BasePath>_content/BethanysPieShop</BasePath>
       <RelativePath>lib/bootstrap/scss/mixins/_utilities.scss</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
@@ -1838,9 +1856,9 @@
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\lib\bootstrap\scss\mixins\_visually-hidden.scss'))">
       <SourceType>Package</SourceType>
-      <SourceId>MvcCoreSample</SourceId>
+      <SourceId>BethanysPieShop</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
-      <BasePath>_content/MvcCoreSample</BasePath>
+      <BasePath>_content/BethanysPieShop</BasePath>
       <RelativePath>lib/bootstrap/scss/mixins/_visually-hidden.scss</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
@@ -1856,9 +1874,9 @@
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\lib\bootstrap\scss\utilities\_api.scss'))">
       <SourceType>Package</SourceType>
-      <SourceId>MvcCoreSample</SourceId>
+      <SourceId>BethanysPieShop</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
-      <BasePath>_content/MvcCoreSample</BasePath>
+      <BasePath>_content/BethanysPieShop</BasePath>
       <RelativePath>lib/bootstrap/scss/utilities/_api.scss</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
@@ -1874,9 +1892,9 @@
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\lib\bootstrap\scss\vendor\_rfs.scss'))">
       <SourceType>Package</SourceType>
-      <SourceId>MvcCoreSample</SourceId>
+      <SourceId>BethanysPieShop</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
-      <BasePath>_content/MvcCoreSample</BasePath>
+      <BasePath>_content/BethanysPieShop</BasePath>
       <RelativePath>lib/bootstrap/scss/vendor/_rfs.scss</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
@@ -1892,9 +1910,9 @@
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\lib\bootstrap\scss\_accordion.scss'))">
       <SourceType>Package</SourceType>
-      <SourceId>MvcCoreSample</SourceId>
+      <SourceId>BethanysPieShop</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
-      <BasePath>_content/MvcCoreSample</BasePath>
+      <BasePath>_content/BethanysPieShop</BasePath>
       <RelativePath>lib/bootstrap/scss/_accordion.scss</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
@@ -1910,9 +1928,9 @@
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\lib\bootstrap\scss\_alert.scss'))">
       <SourceType>Package</SourceType>
-      <SourceId>MvcCoreSample</SourceId>
+      <SourceId>BethanysPieShop</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
-      <BasePath>_content/MvcCoreSample</BasePath>
+      <BasePath>_content/BethanysPieShop</BasePath>
       <RelativePath>lib/bootstrap/scss/_alert.scss</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
@@ -1928,9 +1946,9 @@
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\lib\bootstrap\scss\_badge.scss'))">
       <SourceType>Package</SourceType>
-      <SourceId>MvcCoreSample</SourceId>
+      <SourceId>BethanysPieShop</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
-      <BasePath>_content/MvcCoreSample</BasePath>
+      <BasePath>_content/BethanysPieShop</BasePath>
       <RelativePath>lib/bootstrap/scss/_badge.scss</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
@@ -1946,9 +1964,9 @@
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\lib\bootstrap\scss\_breadcrumb.scss'))">
       <SourceType>Package</SourceType>
-      <SourceId>MvcCoreSample</SourceId>
+      <SourceId>BethanysPieShop</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
-      <BasePath>_content/MvcCoreSample</BasePath>
+      <BasePath>_content/BethanysPieShop</BasePath>
       <RelativePath>lib/bootstrap/scss/_breadcrumb.scss</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
@@ -1964,9 +1982,9 @@
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\lib\bootstrap\scss\_button-group.scss'))">
       <SourceType>Package</SourceType>
-      <SourceId>MvcCoreSample</SourceId>
+      <SourceId>BethanysPieShop</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
-      <BasePath>_content/MvcCoreSample</BasePath>
+      <BasePath>_content/BethanysPieShop</BasePath>
       <RelativePath>lib/bootstrap/scss/_button-group.scss</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
@@ -1982,9 +2000,9 @@
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\lib\bootstrap\scss\_buttons.scss'))">
       <SourceType>Package</SourceType>
-      <SourceId>MvcCoreSample</SourceId>
+      <SourceId>BethanysPieShop</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
-      <BasePath>_content/MvcCoreSample</BasePath>
+      <BasePath>_content/BethanysPieShop</BasePath>
       <RelativePath>lib/bootstrap/scss/_buttons.scss</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
@@ -2000,9 +2018,9 @@
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\lib\bootstrap\scss\_card.scss'))">
       <SourceType>Package</SourceType>
-      <SourceId>MvcCoreSample</SourceId>
+      <SourceId>BethanysPieShop</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
-      <BasePath>_content/MvcCoreSample</BasePath>
+      <BasePath>_content/BethanysPieShop</BasePath>
       <RelativePath>lib/bootstrap/scss/_card.scss</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
@@ -2018,9 +2036,9 @@
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\lib\bootstrap\scss\_carousel.scss'))">
       <SourceType>Package</SourceType>
-      <SourceId>MvcCoreSample</SourceId>
+      <SourceId>BethanysPieShop</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
-      <BasePath>_content/MvcCoreSample</BasePath>
+      <BasePath>_content/BethanysPieShop</BasePath>
       <RelativePath>lib/bootstrap/scss/_carousel.scss</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
@@ -2036,9 +2054,9 @@
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\lib\bootstrap\scss\_close.scss'))">
       <SourceType>Package</SourceType>
-      <SourceId>MvcCoreSample</SourceId>
+      <SourceId>BethanysPieShop</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
-      <BasePath>_content/MvcCoreSample</BasePath>
+      <BasePath>_content/BethanysPieShop</BasePath>
       <RelativePath>lib/bootstrap/scss/_close.scss</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
@@ -2054,9 +2072,9 @@
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\lib\bootstrap\scss\_containers.scss'))">
       <SourceType>Package</SourceType>
-      <SourceId>MvcCoreSample</SourceId>
+      <SourceId>BethanysPieShop</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
-      <BasePath>_content/MvcCoreSample</BasePath>
+      <BasePath>_content/BethanysPieShop</BasePath>
       <RelativePath>lib/bootstrap/scss/_containers.scss</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
@@ -2072,9 +2090,9 @@
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\lib\bootstrap\scss\_dropdown.scss'))">
       <SourceType>Package</SourceType>
-      <SourceId>MvcCoreSample</SourceId>
+      <SourceId>BethanysPieShop</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
-      <BasePath>_content/MvcCoreSample</BasePath>
+      <BasePath>_content/BethanysPieShop</BasePath>
       <RelativePath>lib/bootstrap/scss/_dropdown.scss</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
@@ -2090,9 +2108,9 @@
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\lib\bootstrap\scss\_forms.scss'))">
       <SourceType>Package</SourceType>
-      <SourceId>MvcCoreSample</SourceId>
+      <SourceId>BethanysPieShop</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
-      <BasePath>_content/MvcCoreSample</BasePath>
+      <BasePath>_content/BethanysPieShop</BasePath>
       <RelativePath>lib/bootstrap/scss/_forms.scss</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
@@ -2108,9 +2126,9 @@
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\lib\bootstrap\scss\_functions.scss'))">
       <SourceType>Package</SourceType>
-      <SourceId>MvcCoreSample</SourceId>
+      <SourceId>BethanysPieShop</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
-      <BasePath>_content/MvcCoreSample</BasePath>
+      <BasePath>_content/BethanysPieShop</BasePath>
       <RelativePath>lib/bootstrap/scss/_functions.scss</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
@@ -2126,9 +2144,9 @@
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\lib\bootstrap\scss\_grid.scss'))">
       <SourceType>Package</SourceType>
-      <SourceId>MvcCoreSample</SourceId>
+      <SourceId>BethanysPieShop</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
-      <BasePath>_content/MvcCoreSample</BasePath>
+      <BasePath>_content/BethanysPieShop</BasePath>
       <RelativePath>lib/bootstrap/scss/_grid.scss</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
@@ -2144,9 +2162,9 @@
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\lib\bootstrap\scss\_helpers.scss'))">
       <SourceType>Package</SourceType>
-      <SourceId>MvcCoreSample</SourceId>
+      <SourceId>BethanysPieShop</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
-      <BasePath>_content/MvcCoreSample</BasePath>
+      <BasePath>_content/BethanysPieShop</BasePath>
       <RelativePath>lib/bootstrap/scss/_helpers.scss</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
@@ -2162,9 +2180,9 @@
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\lib\bootstrap\scss\_images.scss'))">
       <SourceType>Package</SourceType>
-      <SourceId>MvcCoreSample</SourceId>
+      <SourceId>BethanysPieShop</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
-      <BasePath>_content/MvcCoreSample</BasePath>
+      <BasePath>_content/BethanysPieShop</BasePath>
       <RelativePath>lib/bootstrap/scss/_images.scss</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
@@ -2180,9 +2198,9 @@
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\lib\bootstrap\scss\_list-group.scss'))">
       <SourceType>Package</SourceType>
-      <SourceId>MvcCoreSample</SourceId>
+      <SourceId>BethanysPieShop</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
-      <BasePath>_content/MvcCoreSample</BasePath>
+      <BasePath>_content/BethanysPieShop</BasePath>
       <RelativePath>lib/bootstrap/scss/_list-group.scss</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
@@ -2198,9 +2216,9 @@
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\lib\bootstrap\scss\_maps.scss'))">
       <SourceType>Package</SourceType>
-      <SourceId>MvcCoreSample</SourceId>
+      <SourceId>BethanysPieShop</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
-      <BasePath>_content/MvcCoreSample</BasePath>
+      <BasePath>_content/BethanysPieShop</BasePath>
       <RelativePath>lib/bootstrap/scss/_maps.scss</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
@@ -2216,9 +2234,9 @@
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\lib\bootstrap\scss\_mixins.scss'))">
       <SourceType>Package</SourceType>
-      <SourceId>MvcCoreSample</SourceId>
+      <SourceId>BethanysPieShop</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
-      <BasePath>_content/MvcCoreSample</BasePath>
+      <BasePath>_content/BethanysPieShop</BasePath>
       <RelativePath>lib/bootstrap/scss/_mixins.scss</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
@@ -2234,9 +2252,9 @@
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\lib\bootstrap\scss\_modal.scss'))">
       <SourceType>Package</SourceType>
-      <SourceId>MvcCoreSample</SourceId>
+      <SourceId>BethanysPieShop</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
-      <BasePath>_content/MvcCoreSample</BasePath>
+      <BasePath>_content/BethanysPieShop</BasePath>
       <RelativePath>lib/bootstrap/scss/_modal.scss</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
@@ -2252,9 +2270,9 @@
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\lib\bootstrap\scss\_nav.scss'))">
       <SourceType>Package</SourceType>
-      <SourceId>MvcCoreSample</SourceId>
+      <SourceId>BethanysPieShop</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
-      <BasePath>_content/MvcCoreSample</BasePath>
+      <BasePath>_content/BethanysPieShop</BasePath>
       <RelativePath>lib/bootstrap/scss/_nav.scss</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
@@ -2270,9 +2288,9 @@
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\lib\bootstrap\scss\_navbar.scss'))">
       <SourceType>Package</SourceType>
-      <SourceId>MvcCoreSample</SourceId>
+      <SourceId>BethanysPieShop</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
-      <BasePath>_content/MvcCoreSample</BasePath>
+      <BasePath>_content/BethanysPieShop</BasePath>
       <RelativePath>lib/bootstrap/scss/_navbar.scss</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
@@ -2288,9 +2306,9 @@
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\lib\bootstrap\scss\_offcanvas.scss'))">
       <SourceType>Package</SourceType>
-      <SourceId>MvcCoreSample</SourceId>
+      <SourceId>BethanysPieShop</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
-      <BasePath>_content/MvcCoreSample</BasePath>
+      <BasePath>_content/BethanysPieShop</BasePath>
       <RelativePath>lib/bootstrap/scss/_offcanvas.scss</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
@@ -2306,9 +2324,9 @@
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\lib\bootstrap\scss\_pagination.scss'))">
       <SourceType>Package</SourceType>
-      <SourceId>MvcCoreSample</SourceId>
+      <SourceId>BethanysPieShop</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
-      <BasePath>_content/MvcCoreSample</BasePath>
+      <BasePath>_content/BethanysPieShop</BasePath>
       <RelativePath>lib/bootstrap/scss/_pagination.scss</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
@@ -2324,9 +2342,9 @@
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\lib\bootstrap\scss\_placeholders.scss'))">
       <SourceType>Package</SourceType>
-      <SourceId>MvcCoreSample</SourceId>
+      <SourceId>BethanysPieShop</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
-      <BasePath>_content/MvcCoreSample</BasePath>
+      <BasePath>_content/BethanysPieShop</BasePath>
       <RelativePath>lib/bootstrap/scss/_placeholders.scss</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
@@ -2342,9 +2360,9 @@
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\lib\bootstrap\scss\_popover.scss'))">
       <SourceType>Package</SourceType>
-      <SourceId>MvcCoreSample</SourceId>
+      <SourceId>BethanysPieShop</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
-      <BasePath>_content/MvcCoreSample</BasePath>
+      <BasePath>_content/BethanysPieShop</BasePath>
       <RelativePath>lib/bootstrap/scss/_popover.scss</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
@@ -2360,9 +2378,9 @@
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\lib\bootstrap\scss\_progress.scss'))">
       <SourceType>Package</SourceType>
-      <SourceId>MvcCoreSample</SourceId>
+      <SourceId>BethanysPieShop</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
-      <BasePath>_content/MvcCoreSample</BasePath>
+      <BasePath>_content/BethanysPieShop</BasePath>
       <RelativePath>lib/bootstrap/scss/_progress.scss</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
@@ -2378,9 +2396,9 @@
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\lib\bootstrap\scss\_reboot.scss'))">
       <SourceType>Package</SourceType>
-      <SourceId>MvcCoreSample</SourceId>
+      <SourceId>BethanysPieShop</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
-      <BasePath>_content/MvcCoreSample</BasePath>
+      <BasePath>_content/BethanysPieShop</BasePath>
       <RelativePath>lib/bootstrap/scss/_reboot.scss</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
@@ -2396,9 +2414,9 @@
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\lib\bootstrap\scss\_root.scss'))">
       <SourceType>Package</SourceType>
-      <SourceId>MvcCoreSample</SourceId>
+      <SourceId>BethanysPieShop</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
-      <BasePath>_content/MvcCoreSample</BasePath>
+      <BasePath>_content/BethanysPieShop</BasePath>
       <RelativePath>lib/bootstrap/scss/_root.scss</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
@@ -2414,9 +2432,9 @@
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\lib\bootstrap\scss\_spinners.scss'))">
       <SourceType>Package</SourceType>
-      <SourceId>MvcCoreSample</SourceId>
+      <SourceId>BethanysPieShop</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
-      <BasePath>_content/MvcCoreSample</BasePath>
+      <BasePath>_content/BethanysPieShop</BasePath>
       <RelativePath>lib/bootstrap/scss/_spinners.scss</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
@@ -2432,9 +2450,9 @@
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\lib\bootstrap\scss\_tables.scss'))">
       <SourceType>Package</SourceType>
-      <SourceId>MvcCoreSample</SourceId>
+      <SourceId>BethanysPieShop</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
-      <BasePath>_content/MvcCoreSample</BasePath>
+      <BasePath>_content/BethanysPieShop</BasePath>
       <RelativePath>lib/bootstrap/scss/_tables.scss</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
@@ -2450,9 +2468,9 @@
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\lib\bootstrap\scss\_toasts.scss'))">
       <SourceType>Package</SourceType>
-      <SourceId>MvcCoreSample</SourceId>
+      <SourceId>BethanysPieShop</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
-      <BasePath>_content/MvcCoreSample</BasePath>
+      <BasePath>_content/BethanysPieShop</BasePath>
       <RelativePath>lib/bootstrap/scss/_toasts.scss</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
@@ -2468,9 +2486,9 @@
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\lib\bootstrap\scss\_tooltip.scss'))">
       <SourceType>Package</SourceType>
-      <SourceId>MvcCoreSample</SourceId>
+      <SourceId>BethanysPieShop</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
-      <BasePath>_content/MvcCoreSample</BasePath>
+      <BasePath>_content/BethanysPieShop</BasePath>
       <RelativePath>lib/bootstrap/scss/_tooltip.scss</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
@@ -2486,9 +2504,9 @@
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\lib\bootstrap\scss\_transitions.scss'))">
       <SourceType>Package</SourceType>
-      <SourceId>MvcCoreSample</SourceId>
+      <SourceId>BethanysPieShop</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
-      <BasePath>_content/MvcCoreSample</BasePath>
+      <BasePath>_content/BethanysPieShop</BasePath>
       <RelativePath>lib/bootstrap/scss/_transitions.scss</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
@@ -2504,9 +2522,9 @@
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\lib\bootstrap\scss\_type.scss'))">
       <SourceType>Package</SourceType>
-      <SourceId>MvcCoreSample</SourceId>
+      <SourceId>BethanysPieShop</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
-      <BasePath>_content/MvcCoreSample</BasePath>
+      <BasePath>_content/BethanysPieShop</BasePath>
       <RelativePath>lib/bootstrap/scss/_type.scss</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
@@ -2522,9 +2540,9 @@
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\lib\bootstrap\scss\_utilities.scss'))">
       <SourceType>Package</SourceType>
-      <SourceId>MvcCoreSample</SourceId>
+      <SourceId>BethanysPieShop</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
-      <BasePath>_content/MvcCoreSample</BasePath>
+      <BasePath>_content/BethanysPieShop</BasePath>
       <RelativePath>lib/bootstrap/scss/_utilities.scss</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
@@ -2540,9 +2558,9 @@
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\lib\bootstrap\scss\_variables.scss'))">
       <SourceType>Package</SourceType>
-      <SourceId>MvcCoreSample</SourceId>
+      <SourceId>BethanysPieShop</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
-      <BasePath>_content/MvcCoreSample</BasePath>
+      <BasePath>_content/BethanysPieShop</BasePath>
       <RelativePath>lib/bootstrap/scss/_variables.scss</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
@@ -2558,9 +2576,9 @@
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\lib\bootstrap\scss\_variables-dark.scss'))">
       <SourceType>Package</SourceType>
-      <SourceId>MvcCoreSample</SourceId>
+      <SourceId>BethanysPieShop</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
-      <BasePath>_content/MvcCoreSample</BasePath>
+      <BasePath>_content/BethanysPieShop</BasePath>
       <RelativePath>lib/bootstrap/scss/_variables-dark.scss</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
@@ -2576,9 +2594,9 @@
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\lib\jquery-validate\additional-methods.js'))">
       <SourceType>Package</SourceType>
-      <SourceId>MvcCoreSample</SourceId>
+      <SourceId>BethanysPieShop</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
-      <BasePath>_content/MvcCoreSample</BasePath>
+      <BasePath>_content/BethanysPieShop</BasePath>
       <RelativePath>lib/jquery-validate/additional-methods.js</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
@@ -2594,9 +2612,9 @@
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\lib\jquery-validate\additional-methods.min.js'))">
       <SourceType>Package</SourceType>
-      <SourceId>MvcCoreSample</SourceId>
+      <SourceId>BethanysPieShop</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
-      <BasePath>_content/MvcCoreSample</BasePath>
+      <BasePath>_content/BethanysPieShop</BasePath>
       <RelativePath>lib/jquery-validate/additional-methods.min.js</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
@@ -2612,9 +2630,9 @@
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\lib\jquery-validate\jquery-validation-sri.json'))">
       <SourceType>Package</SourceType>
-      <SourceId>MvcCoreSample</SourceId>
+      <SourceId>BethanysPieShop</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
-      <BasePath>_content/MvcCoreSample</BasePath>
+      <BasePath>_content/BethanysPieShop</BasePath>
       <RelativePath>lib/jquery-validate/jquery-validation-sri.json</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
@@ -2630,9 +2648,9 @@
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\lib\jquery-validate\jquery.validate.js'))">
       <SourceType>Package</SourceType>
-      <SourceId>MvcCoreSample</SourceId>
+      <SourceId>BethanysPieShop</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
-      <BasePath>_content/MvcCoreSample</BasePath>
+      <BasePath>_content/BethanysPieShop</BasePath>
       <RelativePath>lib/jquery-validate/jquery.validate.js</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
@@ -2648,9 +2666,9 @@
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\lib\jquery-validate\jquery.validate.min.js'))">
       <SourceType>Package</SourceType>
-      <SourceId>MvcCoreSample</SourceId>
+      <SourceId>BethanysPieShop</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
-      <BasePath>_content/MvcCoreSample</BasePath>
+      <BasePath>_content/BethanysPieShop</BasePath>
       <RelativePath>lib/jquery-validate/jquery.validate.min.js</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
@@ -2666,9 +2684,9 @@
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\lib\jquery-validate\localization\messages_ar.js'))">
       <SourceType>Package</SourceType>
-      <SourceId>MvcCoreSample</SourceId>
+      <SourceId>BethanysPieShop</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
-      <BasePath>_content/MvcCoreSample</BasePath>
+      <BasePath>_content/BethanysPieShop</BasePath>
       <RelativePath>lib/jquery-validate/localization/messages_ar.js</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
@@ -2684,9 +2702,9 @@
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\lib\jquery-validate\localization\messages_ar.min.js'))">
       <SourceType>Package</SourceType>
-      <SourceId>MvcCoreSample</SourceId>
+      <SourceId>BethanysPieShop</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
-      <BasePath>_content/MvcCoreSample</BasePath>
+      <BasePath>_content/BethanysPieShop</BasePath>
       <RelativePath>lib/jquery-validate/localization/messages_ar.min.js</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
@@ -2702,9 +2720,9 @@
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\lib\jquery-validate\localization\messages_az.js'))">
       <SourceType>Package</SourceType>
-      <SourceId>MvcCoreSample</SourceId>
+      <SourceId>BethanysPieShop</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
-      <BasePath>_content/MvcCoreSample</BasePath>
+      <BasePath>_content/BethanysPieShop</BasePath>
       <RelativePath>lib/jquery-validate/localization/messages_az.js</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
@@ -2720,9 +2738,9 @@
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\lib\jquery-validate\localization\messages_az.min.js'))">
       <SourceType>Package</SourceType>
-      <SourceId>MvcCoreSample</SourceId>
+      <SourceId>BethanysPieShop</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
-      <BasePath>_content/MvcCoreSample</BasePath>
+      <BasePath>_content/BethanysPieShop</BasePath>
       <RelativePath>lib/jquery-validate/localization/messages_az.min.js</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
@@ -2738,9 +2756,9 @@
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\lib\jquery-validate\localization\messages_bg.js'))">
       <SourceType>Package</SourceType>
-      <SourceId>MvcCoreSample</SourceId>
+      <SourceId>BethanysPieShop</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
-      <BasePath>_content/MvcCoreSample</BasePath>
+      <BasePath>_content/BethanysPieShop</BasePath>
       <RelativePath>lib/jquery-validate/localization/messages_bg.js</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
@@ -2756,9 +2774,9 @@
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\lib\jquery-validate\localization\messages_bg.min.js'))">
       <SourceType>Package</SourceType>
-      <SourceId>MvcCoreSample</SourceId>
+      <SourceId>BethanysPieShop</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
-      <BasePath>_content/MvcCoreSample</BasePath>
+      <BasePath>_content/BethanysPieShop</BasePath>
       <RelativePath>lib/jquery-validate/localization/messages_bg.min.js</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
@@ -2774,9 +2792,9 @@
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\lib\jquery-validate\localization\messages_bn_bd.js'))">
       <SourceType>Package</SourceType>
-      <SourceId>MvcCoreSample</SourceId>
+      <SourceId>BethanysPieShop</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
-      <BasePath>_content/MvcCoreSample</BasePath>
+      <BasePath>_content/BethanysPieShop</BasePath>
       <RelativePath>lib/jquery-validate/localization/messages_bn_bd.js</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
@@ -2792,9 +2810,9 @@
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\lib\jquery-validate\localization\messages_bn_bd.min.js'))">
       <SourceType>Package</SourceType>
-      <SourceId>MvcCoreSample</SourceId>
+      <SourceId>BethanysPieShop</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
-      <BasePath>_content/MvcCoreSample</BasePath>
+      <BasePath>_content/BethanysPieShop</BasePath>
       <RelativePath>lib/jquery-validate/localization/messages_bn_bd.min.js</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
@@ -2810,9 +2828,9 @@
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\lib\jquery-validate\localization\messages_ca.js'))">
       <SourceType>Package</SourceType>
-      <SourceId>MvcCoreSample</SourceId>
+      <SourceId>BethanysPieShop</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
-      <BasePath>_content/MvcCoreSample</BasePath>
+      <BasePath>_content/BethanysPieShop</BasePath>
       <RelativePath>lib/jquery-validate/localization/messages_ca.js</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
@@ -2828,9 +2846,9 @@
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\lib\jquery-validate\localization\messages_ca.min.js'))">
       <SourceType>Package</SourceType>
-      <SourceId>MvcCoreSample</SourceId>
+      <SourceId>BethanysPieShop</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
-      <BasePath>_content/MvcCoreSample</BasePath>
+      <BasePath>_content/BethanysPieShop</BasePath>
       <RelativePath>lib/jquery-validate/localization/messages_ca.min.js</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
@@ -2846,9 +2864,9 @@
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\lib\jquery-validate\localization\messages_cs.js'))">
       <SourceType>Package</SourceType>
-      <SourceId>MvcCoreSample</SourceId>
+      <SourceId>BethanysPieShop</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
-      <BasePath>_content/MvcCoreSample</BasePath>
+      <BasePath>_content/BethanysPieShop</BasePath>
       <RelativePath>lib/jquery-validate/localization/messages_cs.js</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
@@ -2864,9 +2882,9 @@
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\lib\jquery-validate\localization\messages_cs.min.js'))">
       <SourceType>Package</SourceType>
-      <SourceId>MvcCoreSample</SourceId>
+      <SourceId>BethanysPieShop</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
-      <BasePath>_content/MvcCoreSample</BasePath>
+      <BasePath>_content/BethanysPieShop</BasePath>
       <RelativePath>lib/jquery-validate/localization/messages_cs.min.js</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
@@ -2882,9 +2900,9 @@
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\lib\jquery-validate\localization\messages_da.js'))">
       <SourceType>Package</SourceType>
-      <SourceId>MvcCoreSample</SourceId>
+      <SourceId>BethanysPieShop</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
-      <BasePath>_content/MvcCoreSample</BasePath>
+      <BasePath>_content/BethanysPieShop</BasePath>
       <RelativePath>lib/jquery-validate/localization/messages_da.js</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
@@ -2900,9 +2918,9 @@
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\lib\jquery-validate\localization\messages_da.min.js'))">
       <SourceType>Package</SourceType>
-      <SourceId>MvcCoreSample</SourceId>
+      <SourceId>BethanysPieShop</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
-      <BasePath>_content/MvcCoreSample</BasePath>
+      <BasePath>_content/BethanysPieShop</BasePath>
       <RelativePath>lib/jquery-validate/localization/messages_da.min.js</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
@@ -2918,9 +2936,9 @@
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\lib\jquery-validate\localization\messages_de.js'))">
       <SourceType>Package</SourceType>
-      <SourceId>MvcCoreSample</SourceId>
+      <SourceId>BethanysPieShop</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
-      <BasePath>_content/MvcCoreSample</BasePath>
+      <BasePath>_content/BethanysPieShop</BasePath>
       <RelativePath>lib/jquery-validate/localization/messages_de.js</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
@@ -2936,9 +2954,9 @@
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\lib\jquery-validate\localization\messages_de.min.js'))">
       <SourceType>Package</SourceType>
-      <SourceId>MvcCoreSample</SourceId>
+      <SourceId>BethanysPieShop</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
-      <BasePath>_content/MvcCoreSample</BasePath>
+      <BasePath>_content/BethanysPieShop</BasePath>
       <RelativePath>lib/jquery-validate/localization/messages_de.min.js</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
@@ -2954,9 +2972,9 @@
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\lib\jquery-validate\localization\messages_el.js'))">
       <SourceType>Package</SourceType>
-      <SourceId>MvcCoreSample</SourceId>
+      <SourceId>BethanysPieShop</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
-      <BasePath>_content/MvcCoreSample</BasePath>
+      <BasePath>_content/BethanysPieShop</BasePath>
       <RelativePath>lib/jquery-validate/localization/messages_el.js</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
@@ -2972,9 +2990,9 @@
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\lib\jquery-validate\localization\messages_el.min.js'))">
       <SourceType>Package</SourceType>
-      <SourceId>MvcCoreSample</SourceId>
+      <SourceId>BethanysPieShop</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
-      <BasePath>_content/MvcCoreSample</BasePath>
+      <BasePath>_content/BethanysPieShop</BasePath>
       <RelativePath>lib/jquery-validate/localization/messages_el.min.js</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
@@ -2990,9 +3008,9 @@
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\lib\jquery-validate\localization\messages_es.js'))">
       <SourceType>Package</SourceType>
-      <SourceId>MvcCoreSample</SourceId>
+      <SourceId>BethanysPieShop</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
-      <BasePath>_content/MvcCoreSample</BasePath>
+      <BasePath>_content/BethanysPieShop</BasePath>
       <RelativePath>lib/jquery-validate/localization/messages_es.js</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
@@ -3008,9 +3026,9 @@
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\lib\jquery-validate\localization\messages_es.min.js'))">
       <SourceType>Package</SourceType>
-      <SourceId>MvcCoreSample</SourceId>
+      <SourceId>BethanysPieShop</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
-      <BasePath>_content/MvcCoreSample</BasePath>
+      <BasePath>_content/BethanysPieShop</BasePath>
       <RelativePath>lib/jquery-validate/localization/messages_es.min.js</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
@@ -3026,9 +3044,9 @@
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\lib\jquery-validate\localization\messages_es_ar.js'))">
       <SourceType>Package</SourceType>
-      <SourceId>MvcCoreSample</SourceId>
+      <SourceId>BethanysPieShop</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
-      <BasePath>_content/MvcCoreSample</BasePath>
+      <BasePath>_content/BethanysPieShop</BasePath>
       <RelativePath>lib/jquery-validate/localization/messages_es_ar.js</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
@@ -3044,9 +3062,9 @@
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\lib\jquery-validate\localization\messages_es_ar.min.js'))">
       <SourceType>Package</SourceType>
-      <SourceId>MvcCoreSample</SourceId>
+      <SourceId>BethanysPieShop</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
-      <BasePath>_content/MvcCoreSample</BasePath>
+      <BasePath>_content/BethanysPieShop</BasePath>
       <RelativePath>lib/jquery-validate/localization/messages_es_ar.min.js</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
@@ -3062,9 +3080,9 @@
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\lib\jquery-validate\localization\messages_es_pe.js'))">
       <SourceType>Package</SourceType>
-      <SourceId>MvcCoreSample</SourceId>
+      <SourceId>BethanysPieShop</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
-      <BasePath>_content/MvcCoreSample</BasePath>
+      <BasePath>_content/BethanysPieShop</BasePath>
       <RelativePath>lib/jquery-validate/localization/messages_es_pe.js</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
@@ -3080,9 +3098,9 @@
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\lib\jquery-validate\localization\messages_es_pe.min.js'))">
       <SourceType>Package</SourceType>
-      <SourceId>MvcCoreSample</SourceId>
+      <SourceId>BethanysPieShop</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
-      <BasePath>_content/MvcCoreSample</BasePath>
+      <BasePath>_content/BethanysPieShop</BasePath>
       <RelativePath>lib/jquery-validate/localization/messages_es_pe.min.js</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
@@ -3098,9 +3116,9 @@
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\lib\jquery-validate\localization\messages_et.js'))">
       <SourceType>Package</SourceType>
-      <SourceId>MvcCoreSample</SourceId>
+      <SourceId>BethanysPieShop</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
-      <BasePath>_content/MvcCoreSample</BasePath>
+      <BasePath>_content/BethanysPieShop</BasePath>
       <RelativePath>lib/jquery-validate/localization/messages_et.js</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
@@ -3116,9 +3134,9 @@
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\lib\jquery-validate\localization\messages_et.min.js'))">
       <SourceType>Package</SourceType>
-      <SourceId>MvcCoreSample</SourceId>
+      <SourceId>BethanysPieShop</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
-      <BasePath>_content/MvcCoreSample</BasePath>
+      <BasePath>_content/BethanysPieShop</BasePath>
       <RelativePath>lib/jquery-validate/localization/messages_et.min.js</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
@@ -3134,9 +3152,9 @@
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\lib\jquery-validate\localization\messages_eu.js'))">
       <SourceType>Package</SourceType>
-      <SourceId>MvcCoreSample</SourceId>
+      <SourceId>BethanysPieShop</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
-      <BasePath>_content/MvcCoreSample</BasePath>
+      <BasePath>_content/BethanysPieShop</BasePath>
       <RelativePath>lib/jquery-validate/localization/messages_eu.js</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
@@ -3152,9 +3170,9 @@
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\lib\jquery-validate\localization\messages_eu.min.js'))">
       <SourceType>Package</SourceType>
-      <SourceId>MvcCoreSample</SourceId>
+      <SourceId>BethanysPieShop</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
-      <BasePath>_content/MvcCoreSample</BasePath>
+      <BasePath>_content/BethanysPieShop</BasePath>
       <RelativePath>lib/jquery-validate/localization/messages_eu.min.js</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
@@ -3170,9 +3188,9 @@
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\lib\jquery-validate\localization\messages_fa.js'))">
       <SourceType>Package</SourceType>
-      <SourceId>MvcCoreSample</SourceId>
+      <SourceId>BethanysPieShop</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
-      <BasePath>_content/MvcCoreSample</BasePath>
+      <BasePath>_content/BethanysPieShop</BasePath>
       <RelativePath>lib/jquery-validate/localization/messages_fa.js</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
@@ -3188,9 +3206,9 @@
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\lib\jquery-validate\localization\messages_fa.min.js'))">
       <SourceType>Package</SourceType>
-      <SourceId>MvcCoreSample</SourceId>
+      <SourceId>BethanysPieShop</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
-      <BasePath>_content/MvcCoreSample</BasePath>
+      <BasePath>_content/BethanysPieShop</BasePath>
       <RelativePath>lib/jquery-validate/localization/messages_fa.min.js</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
@@ -3206,9 +3224,9 @@
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\lib\jquery-validate\localization\messages_fi.js'))">
       <SourceType>Package</SourceType>
-      <SourceId>MvcCoreSample</SourceId>
+      <SourceId>BethanysPieShop</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
-      <BasePath>_content/MvcCoreSample</BasePath>
+      <BasePath>_content/BethanysPieShop</BasePath>
       <RelativePath>lib/jquery-validate/localization/messages_fi.js</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
@@ -3224,9 +3242,9 @@
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\lib\jquery-validate\localization\messages_fi.min.js'))">
       <SourceType>Package</SourceType>
-      <SourceId>MvcCoreSample</SourceId>
+      <SourceId>BethanysPieShop</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
-      <BasePath>_content/MvcCoreSample</BasePath>
+      <BasePath>_content/BethanysPieShop</BasePath>
       <RelativePath>lib/jquery-validate/localization/messages_fi.min.js</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
@@ -3242,9 +3260,9 @@
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\lib\jquery-validate\localization\messages_fr.js'))">
       <SourceType>Package</SourceType>
-      <SourceId>MvcCoreSample</SourceId>
+      <SourceId>BethanysPieShop</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
-      <BasePath>_content/MvcCoreSample</BasePath>
+      <BasePath>_content/BethanysPieShop</BasePath>
       <RelativePath>lib/jquery-validate/localization/messages_fr.js</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
@@ -3260,9 +3278,9 @@
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\lib\jquery-validate\localization\messages_fr.min.js'))">
       <SourceType>Package</SourceType>
-      <SourceId>MvcCoreSample</SourceId>
+      <SourceId>BethanysPieShop</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
-      <BasePath>_content/MvcCoreSample</BasePath>
+      <BasePath>_content/BethanysPieShop</BasePath>
       <RelativePath>lib/jquery-validate/localization/messages_fr.min.js</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
@@ -3278,9 +3296,9 @@
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\lib\jquery-validate\localization\messages_ge.js'))">
       <SourceType>Package</SourceType>
-      <SourceId>MvcCoreSample</SourceId>
+      <SourceId>BethanysPieShop</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
-      <BasePath>_content/MvcCoreSample</BasePath>
+      <BasePath>_content/BethanysPieShop</BasePath>
       <RelativePath>lib/jquery-validate/localization/messages_ge.js</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
@@ -3296,9 +3314,9 @@
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\lib\jquery-validate\localization\messages_ge.min.js'))">
       <SourceType>Package</SourceType>
-      <SourceId>MvcCoreSample</SourceId>
+      <SourceId>BethanysPieShop</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
-      <BasePath>_content/MvcCoreSample</BasePath>
+      <BasePath>_content/BethanysPieShop</BasePath>
       <RelativePath>lib/jquery-validate/localization/messages_ge.min.js</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
@@ -3314,9 +3332,9 @@
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\lib\jquery-validate\localization\messages_gl.js'))">
       <SourceType>Package</SourceType>
-      <SourceId>MvcCoreSample</SourceId>
+      <SourceId>BethanysPieShop</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
-      <BasePath>_content/MvcCoreSample</BasePath>
+      <BasePath>_content/BethanysPieShop</BasePath>
       <RelativePath>lib/jquery-validate/localization/messages_gl.js</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
@@ -3332,9 +3350,9 @@
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\lib\jquery-validate\localization\messages_gl.min.js'))">
       <SourceType>Package</SourceType>
-      <SourceId>MvcCoreSample</SourceId>
+      <SourceId>BethanysPieShop</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
-      <BasePath>_content/MvcCoreSample</BasePath>
+      <BasePath>_content/BethanysPieShop</BasePath>
       <RelativePath>lib/jquery-validate/localization/messages_gl.min.js</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
@@ -3350,9 +3368,9 @@
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\lib\jquery-validate\localization\messages_he.js'))">
       <SourceType>Package</SourceType>
-      <SourceId>MvcCoreSample</SourceId>
+      <SourceId>BethanysPieShop</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
-      <BasePath>_content/MvcCoreSample</BasePath>
+      <BasePath>_content/BethanysPieShop</BasePath>
       <RelativePath>lib/jquery-validate/localization/messages_he.js</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
@@ -3368,9 +3386,9 @@
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\lib\jquery-validate\localization\messages_he.min.js'))">
       <SourceType>Package</SourceType>
-      <SourceId>MvcCoreSample</SourceId>
+      <SourceId>BethanysPieShop</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
-      <BasePath>_content/MvcCoreSample</BasePath>
+      <BasePath>_content/BethanysPieShop</BasePath>
       <RelativePath>lib/jquery-validate/localization/messages_he.min.js</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
@@ -3386,9 +3404,9 @@
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\lib\jquery-validate\localization\messages_hi.js'))">
       <SourceType>Package</SourceType>
-      <SourceId>MvcCoreSample</SourceId>
+      <SourceId>BethanysPieShop</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
-      <BasePath>_content/MvcCoreSample</BasePath>
+      <BasePath>_content/BethanysPieShop</BasePath>
       <RelativePath>lib/jquery-validate/localization/messages_hi.js</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
@@ -3404,9 +3422,9 @@
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\lib\jquery-validate\localization\messages_hi.min.js'))">
       <SourceType>Package</SourceType>
-      <SourceId>MvcCoreSample</SourceId>
+      <SourceId>BethanysPieShop</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
-      <BasePath>_content/MvcCoreSample</BasePath>
+      <BasePath>_content/BethanysPieShop</BasePath>
       <RelativePath>lib/jquery-validate/localization/messages_hi.min.js</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
@@ -3422,9 +3440,9 @@
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\lib\jquery-validate\localization\messages_hr.js'))">
       <SourceType>Package</SourceType>
-      <SourceId>MvcCoreSample</SourceId>
+      <SourceId>BethanysPieShop</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
-      <BasePath>_content/MvcCoreSample</BasePath>
+      <BasePath>_content/BethanysPieShop</BasePath>
       <RelativePath>lib/jquery-validate/localization/messages_hr.js</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
@@ -3440,9 +3458,9 @@
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\lib\jquery-validate\localization\messages_hr.min.js'))">
       <SourceType>Package</SourceType>
-      <SourceId>MvcCoreSample</SourceId>
+      <SourceId>BethanysPieShop</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
-      <BasePath>_content/MvcCoreSample</BasePath>
+      <BasePath>_content/BethanysPieShop</BasePath>
       <RelativePath>lib/jquery-validate/localization/messages_hr.min.js</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
@@ -3458,9 +3476,9 @@
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\lib\jquery-validate\localization\messages_hu.js'))">
       <SourceType>Package</SourceType>
-      <SourceId>MvcCoreSample</SourceId>
+      <SourceId>BethanysPieShop</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
-      <BasePath>_content/MvcCoreSample</BasePath>
+      <BasePath>_content/BethanysPieShop</BasePath>
       <RelativePath>lib/jquery-validate/localization/messages_hu.js</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
@@ -3476,9 +3494,9 @@
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\lib\jquery-validate\localization\messages_hu.min.js'))">
       <SourceType>Package</SourceType>
-      <SourceId>MvcCoreSample</SourceId>
+      <SourceId>BethanysPieShop</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
-      <BasePath>_content/MvcCoreSample</BasePath>
+      <BasePath>_content/BethanysPieShop</BasePath>
       <RelativePath>lib/jquery-validate/localization/messages_hu.min.js</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
@@ -3494,9 +3512,9 @@
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\lib\jquery-validate\localization\messages_hy_am.js'))">
       <SourceType>Package</SourceType>
-      <SourceId>MvcCoreSample</SourceId>
+      <SourceId>BethanysPieShop</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
-      <BasePath>_content/MvcCoreSample</BasePath>
+      <BasePath>_content/BethanysPieShop</BasePath>
       <RelativePath>lib/jquery-validate/localization/messages_hy_am.js</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
@@ -3512,9 +3530,9 @@
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\lib\jquery-validate\localization\messages_hy_am.min.js'))">
       <SourceType>Package</SourceType>
-      <SourceId>MvcCoreSample</SourceId>
+      <SourceId>BethanysPieShop</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
-      <BasePath>_content/MvcCoreSample</BasePath>
+      <BasePath>_content/BethanysPieShop</BasePath>
       <RelativePath>lib/jquery-validate/localization/messages_hy_am.min.js</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
@@ -3530,9 +3548,9 @@
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\lib\jquery-validate\localization\messages_id.js'))">
       <SourceType>Package</SourceType>
-      <SourceId>MvcCoreSample</SourceId>
+      <SourceId>BethanysPieShop</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
-      <BasePath>_content/MvcCoreSample</BasePath>
+      <BasePath>_content/BethanysPieShop</BasePath>
       <RelativePath>lib/jquery-validate/localization/messages_id.js</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
@@ -3548,9 +3566,9 @@
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\lib\jquery-validate\localization\messages_id.min.js'))">
       <SourceType>Package</SourceType>
-      <SourceId>MvcCoreSample</SourceId>
+      <SourceId>BethanysPieShop</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
-      <BasePath>_content/MvcCoreSample</BasePath>
+      <BasePath>_content/BethanysPieShop</BasePath>
       <RelativePath>lib/jquery-validate/localization/messages_id.min.js</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
@@ -3566,9 +3584,9 @@
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\lib\jquery-validate\localization\messages_is.js'))">
       <SourceType>Package</SourceType>
-      <SourceId>MvcCoreSample</SourceId>
+      <SourceId>BethanysPieShop</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
-      <BasePath>_content/MvcCoreSample</BasePath>
+      <BasePath>_content/BethanysPieShop</BasePath>
       <RelativePath>lib/jquery-validate/localization/messages_is.js</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
@@ -3584,9 +3602,9 @@
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\lib\jquery-validate\localization\messages_is.min.js'))">
       <SourceType>Package</SourceType>
-      <SourceId>MvcCoreSample</SourceId>
+      <SourceId>BethanysPieShop</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
-      <BasePath>_content/MvcCoreSample</BasePath>
+      <BasePath>_content/BethanysPieShop</BasePath>
       <RelativePath>lib/jquery-validate/localization/messages_is.min.js</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
@@ -3602,9 +3620,9 @@
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\lib\jquery-validate\localization\messages_it.js'))">
       <SourceType>Package</SourceType>
-      <SourceId>MvcCoreSample</SourceId>
+      <SourceId>BethanysPieShop</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
-      <BasePath>_content/MvcCoreSample</BasePath>
+      <BasePath>_content/BethanysPieShop</BasePath>
       <RelativePath>lib/jquery-validate/localization/messages_it.js</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
@@ -3620,9 +3638,9 @@
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\lib\jquery-validate\localization\messages_it.min.js'))">
       <SourceType>Package</SourceType>
-      <SourceId>MvcCoreSample</SourceId>
+      <SourceId>BethanysPieShop</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
-      <BasePath>_content/MvcCoreSample</BasePath>
+      <BasePath>_content/BethanysPieShop</BasePath>
       <RelativePath>lib/jquery-validate/localization/messages_it.min.js</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
@@ -3638,9 +3656,9 @@
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\lib\jquery-validate\localization\messages_ja.js'))">
       <SourceType>Package</SourceType>
-      <SourceId>MvcCoreSample</SourceId>
+      <SourceId>BethanysPieShop</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
-      <BasePath>_content/MvcCoreSample</BasePath>
+      <BasePath>_content/BethanysPieShop</BasePath>
       <RelativePath>lib/jquery-validate/localization/messages_ja.js</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
@@ -3656,9 +3674,9 @@
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\lib\jquery-validate\localization\messages_ja.min.js'))">
       <SourceType>Package</SourceType>
-      <SourceId>MvcCoreSample</SourceId>
+      <SourceId>BethanysPieShop</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
-      <BasePath>_content/MvcCoreSample</BasePath>
+      <BasePath>_content/BethanysPieShop</BasePath>
       <RelativePath>lib/jquery-validate/localization/messages_ja.min.js</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
@@ -3674,9 +3692,9 @@
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\lib\jquery-validate\localization\messages_ka.js'))">
       <SourceType>Package</SourceType>
-      <SourceId>MvcCoreSample</SourceId>
+      <SourceId>BethanysPieShop</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
-      <BasePath>_content/MvcCoreSample</BasePath>
+      <BasePath>_content/BethanysPieShop</BasePath>
       <RelativePath>lib/jquery-validate/localization/messages_ka.js</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
@@ -3692,9 +3710,9 @@
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\lib\jquery-validate\localization\messages_ka.min.js'))">
       <SourceType>Package</SourceType>
-      <SourceId>MvcCoreSample</SourceId>
+      <SourceId>BethanysPieShop</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
-      <BasePath>_content/MvcCoreSample</BasePath>
+      <BasePath>_content/BethanysPieShop</BasePath>
       <RelativePath>lib/jquery-validate/localization/messages_ka.min.js</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
@@ -3710,9 +3728,9 @@
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\lib\jquery-validate\localization\messages_kk.js'))">
       <SourceType>Package</SourceType>
-      <SourceId>MvcCoreSample</SourceId>
+      <SourceId>BethanysPieShop</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
-      <BasePath>_content/MvcCoreSample</BasePath>
+      <BasePath>_content/BethanysPieShop</BasePath>
       <RelativePath>lib/jquery-validate/localization/messages_kk.js</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
@@ -3728,9 +3746,9 @@
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\lib\jquery-validate\localization\messages_kk.min.js'))">
       <SourceType>Package</SourceType>
-      <SourceId>MvcCoreSample</SourceId>
+      <SourceId>BethanysPieShop</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
-      <BasePath>_content/MvcCoreSample</BasePath>
+      <BasePath>_content/BethanysPieShop</BasePath>
       <RelativePath>lib/jquery-validate/localization/messages_kk.min.js</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
@@ -3746,9 +3764,9 @@
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\lib\jquery-validate\localization\messages_ko.js'))">
       <SourceType>Package</SourceType>
-      <SourceId>MvcCoreSample</SourceId>
+      <SourceId>BethanysPieShop</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
-      <BasePath>_content/MvcCoreSample</BasePath>
+      <BasePath>_content/BethanysPieShop</BasePath>
       <RelativePath>lib/jquery-validate/localization/messages_ko.js</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
@@ -3764,9 +3782,9 @@
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\lib\jquery-validate\localization\messages_ko.min.js'))">
       <SourceType>Package</SourceType>
-      <SourceId>MvcCoreSample</SourceId>
+      <SourceId>BethanysPieShop</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
-      <BasePath>_content/MvcCoreSample</BasePath>
+      <BasePath>_content/BethanysPieShop</BasePath>
       <RelativePath>lib/jquery-validate/localization/messages_ko.min.js</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
@@ -3782,9 +3800,9 @@
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\lib\jquery-validate\localization\messages_lt.js'))">
       <SourceType>Package</SourceType>
-      <SourceId>MvcCoreSample</SourceId>
+      <SourceId>BethanysPieShop</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
-      <BasePath>_content/MvcCoreSample</BasePath>
+      <BasePath>_content/BethanysPieShop</BasePath>
       <RelativePath>lib/jquery-validate/localization/messages_lt.js</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
@@ -3800,9 +3818,9 @@
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\lib\jquery-validate\localization\messages_lt.min.js'))">
       <SourceType>Package</SourceType>
-      <SourceId>MvcCoreSample</SourceId>
+      <SourceId>BethanysPieShop</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
-      <BasePath>_content/MvcCoreSample</BasePath>
+      <BasePath>_content/BethanysPieShop</BasePath>
       <RelativePath>lib/jquery-validate/localization/messages_lt.min.js</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
@@ -3818,9 +3836,9 @@
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\lib\jquery-validate\localization\messages_lv.js'))">
       <SourceType>Package</SourceType>
-      <SourceId>MvcCoreSample</SourceId>
+      <SourceId>BethanysPieShop</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
-      <BasePath>_content/MvcCoreSample</BasePath>
+      <BasePath>_content/BethanysPieShop</BasePath>
       <RelativePath>lib/jquery-validate/localization/messages_lv.js</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
@@ -3836,9 +3854,9 @@
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\lib\jquery-validate\localization\messages_lv.min.js'))">
       <SourceType>Package</SourceType>
-      <SourceId>MvcCoreSample</SourceId>
+      <SourceId>BethanysPieShop</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
-      <BasePath>_content/MvcCoreSample</BasePath>
+      <BasePath>_content/BethanysPieShop</BasePath>
       <RelativePath>lib/jquery-validate/localization/messages_lv.min.js</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
@@ -3854,9 +3872,9 @@
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\lib\jquery-validate\localization\messages_mk.js'))">
       <SourceType>Package</SourceType>
-      <SourceId>MvcCoreSample</SourceId>
+      <SourceId>BethanysPieShop</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
-      <BasePath>_content/MvcCoreSample</BasePath>
+      <BasePath>_content/BethanysPieShop</BasePath>
       <RelativePath>lib/jquery-validate/localization/messages_mk.js</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
@@ -3872,9 +3890,9 @@
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\lib\jquery-validate\localization\messages_mk.min.js'))">
       <SourceType>Package</SourceType>
-      <SourceId>MvcCoreSample</SourceId>
+      <SourceId>BethanysPieShop</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
-      <BasePath>_content/MvcCoreSample</BasePath>
+      <BasePath>_content/BethanysPieShop</BasePath>
       <RelativePath>lib/jquery-validate/localization/messages_mk.min.js</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
@@ -3890,9 +3908,9 @@
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\lib\jquery-validate\localization\messages_my.js'))">
       <SourceType>Package</SourceType>
-      <SourceId>MvcCoreSample</SourceId>
+      <SourceId>BethanysPieShop</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
-      <BasePath>_content/MvcCoreSample</BasePath>
+      <BasePath>_content/BethanysPieShop</BasePath>
       <RelativePath>lib/jquery-validate/localization/messages_my.js</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
@@ -3908,9 +3926,9 @@
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\lib\jquery-validate\localization\messages_my.min.js'))">
       <SourceType>Package</SourceType>
-      <SourceId>MvcCoreSample</SourceId>
+      <SourceId>BethanysPieShop</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
-      <BasePath>_content/MvcCoreSample</BasePath>
+      <BasePath>_content/BethanysPieShop</BasePath>
       <RelativePath>lib/jquery-validate/localization/messages_my.min.js</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
@@ -3926,9 +3944,9 @@
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\lib\jquery-validate\localization\messages_nl.js'))">
       <SourceType>Package</SourceType>
-      <SourceId>MvcCoreSample</SourceId>
+      <SourceId>BethanysPieShop</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
-      <BasePath>_content/MvcCoreSample</BasePath>
+      <BasePath>_content/BethanysPieShop</BasePath>
       <RelativePath>lib/jquery-validate/localization/messages_nl.js</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
@@ -3944,9 +3962,9 @@
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\lib\jquery-validate\localization\messages_nl.min.js'))">
       <SourceType>Package</SourceType>
-      <SourceId>MvcCoreSample</SourceId>
+      <SourceId>BethanysPieShop</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
-      <BasePath>_content/MvcCoreSample</BasePath>
+      <BasePath>_content/BethanysPieShop</BasePath>
       <RelativePath>lib/jquery-validate/localization/messages_nl.min.js</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
@@ -3962,9 +3980,9 @@
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\lib\jquery-validate\localization\messages_no.js'))">
       <SourceType>Package</SourceType>
-      <SourceId>MvcCoreSample</SourceId>
+      <SourceId>BethanysPieShop</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
-      <BasePath>_content/MvcCoreSample</BasePath>
+      <BasePath>_content/BethanysPieShop</BasePath>
       <RelativePath>lib/jquery-validate/localization/messages_no.js</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
@@ -3980,9 +3998,9 @@
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\lib\jquery-validate\localization\messages_no.min.js'))">
       <SourceType>Package</SourceType>
-      <SourceId>MvcCoreSample</SourceId>
+      <SourceId>BethanysPieShop</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
-      <BasePath>_content/MvcCoreSample</BasePath>
+      <BasePath>_content/BethanysPieShop</BasePath>
       <RelativePath>lib/jquery-validate/localization/messages_no.min.js</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
@@ -3998,9 +4016,9 @@
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\lib\jquery-validate\localization\messages_pl.js'))">
       <SourceType>Package</SourceType>
-      <SourceId>MvcCoreSample</SourceId>
+      <SourceId>BethanysPieShop</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
-      <BasePath>_content/MvcCoreSample</BasePath>
+      <BasePath>_content/BethanysPieShop</BasePath>
       <RelativePath>lib/jquery-validate/localization/messages_pl.js</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
@@ -4016,9 +4034,9 @@
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\lib\jquery-validate\localization\messages_pl.min.js'))">
       <SourceType>Package</SourceType>
-      <SourceId>MvcCoreSample</SourceId>
+      <SourceId>BethanysPieShop</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
-      <BasePath>_content/MvcCoreSample</BasePath>
+      <BasePath>_content/BethanysPieShop</BasePath>
       <RelativePath>lib/jquery-validate/localization/messages_pl.min.js</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
@@ -4034,9 +4052,9 @@
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\lib\jquery-validate\localization\messages_pt_br.js'))">
       <SourceType>Package</SourceType>
-      <SourceId>MvcCoreSample</SourceId>
+      <SourceId>BethanysPieShop</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
-      <BasePath>_content/MvcCoreSample</BasePath>
+      <BasePath>_content/BethanysPieShop</BasePath>
       <RelativePath>lib/jquery-validate/localization/messages_pt_br.js</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
@@ -4052,9 +4070,9 @@
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\lib\jquery-validate\localization\messages_pt_br.min.js'))">
       <SourceType>Package</SourceType>
-      <SourceId>MvcCoreSample</SourceId>
+      <SourceId>BethanysPieShop</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
-      <BasePath>_content/MvcCoreSample</BasePath>
+      <BasePath>_content/BethanysPieShop</BasePath>
       <RelativePath>lib/jquery-validate/localization/messages_pt_br.min.js</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
@@ -4070,9 +4088,9 @@
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\lib\jquery-validate\localization\messages_pt_pt.js'))">
       <SourceType>Package</SourceType>
-      <SourceId>MvcCoreSample</SourceId>
+      <SourceId>BethanysPieShop</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
-      <BasePath>_content/MvcCoreSample</BasePath>
+      <BasePath>_content/BethanysPieShop</BasePath>
       <RelativePath>lib/jquery-validate/localization/messages_pt_pt.js</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
@@ -4088,9 +4106,9 @@
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\lib\jquery-validate\localization\messages_pt_pt.min.js'))">
       <SourceType>Package</SourceType>
-      <SourceId>MvcCoreSample</SourceId>
+      <SourceId>BethanysPieShop</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
-      <BasePath>_content/MvcCoreSample</BasePath>
+      <BasePath>_content/BethanysPieShop</BasePath>
       <RelativePath>lib/jquery-validate/localization/messages_pt_pt.min.js</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
@@ -4106,9 +4124,9 @@
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\lib\jquery-validate\localization\messages_ro.js'))">
       <SourceType>Package</SourceType>
-      <SourceId>MvcCoreSample</SourceId>
+      <SourceId>BethanysPieShop</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
-      <BasePath>_content/MvcCoreSample</BasePath>
+      <BasePath>_content/BethanysPieShop</BasePath>
       <RelativePath>lib/jquery-validate/localization/messages_ro.js</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
@@ -4124,9 +4142,9 @@
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\lib\jquery-validate\localization\messages_ro.min.js'))">
       <SourceType>Package</SourceType>
-      <SourceId>MvcCoreSample</SourceId>
+      <SourceId>BethanysPieShop</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
-      <BasePath>_content/MvcCoreSample</BasePath>
+      <BasePath>_content/BethanysPieShop</BasePath>
       <RelativePath>lib/jquery-validate/localization/messages_ro.min.js</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
@@ -4142,9 +4160,9 @@
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\lib\jquery-validate\localization\messages_ru.js'))">
       <SourceType>Package</SourceType>
-      <SourceId>MvcCoreSample</SourceId>
+      <SourceId>BethanysPieShop</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
-      <BasePath>_content/MvcCoreSample</BasePath>
+      <BasePath>_content/BethanysPieShop</BasePath>
       <RelativePath>lib/jquery-validate/localization/messages_ru.js</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
@@ -4160,9 +4178,9 @@
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\lib\jquery-validate\localization\messages_ru.min.js'))">
       <SourceType>Package</SourceType>
-      <SourceId>MvcCoreSample</SourceId>
+      <SourceId>BethanysPieShop</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
-      <BasePath>_content/MvcCoreSample</BasePath>
+      <BasePath>_content/BethanysPieShop</BasePath>
       <RelativePath>lib/jquery-validate/localization/messages_ru.min.js</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
@@ -4178,9 +4196,9 @@
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\lib\jquery-validate\localization\messages_sd.js'))">
       <SourceType>Package</SourceType>
-      <SourceId>MvcCoreSample</SourceId>
+      <SourceId>BethanysPieShop</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
-      <BasePath>_content/MvcCoreSample</BasePath>
+      <BasePath>_content/BethanysPieShop</BasePath>
       <RelativePath>lib/jquery-validate/localization/messages_sd.js</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
@@ -4196,9 +4214,9 @@
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\lib\jquery-validate\localization\messages_sd.min.js'))">
       <SourceType>Package</SourceType>
-      <SourceId>MvcCoreSample</SourceId>
+      <SourceId>BethanysPieShop</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
-      <BasePath>_content/MvcCoreSample</BasePath>
+      <BasePath>_content/BethanysPieShop</BasePath>
       <RelativePath>lib/jquery-validate/localization/messages_sd.min.js</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
@@ -4214,9 +4232,9 @@
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\lib\jquery-validate\localization\messages_si.js'))">
       <SourceType>Package</SourceType>
-      <SourceId>MvcCoreSample</SourceId>
+      <SourceId>BethanysPieShop</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
-      <BasePath>_content/MvcCoreSample</BasePath>
+      <BasePath>_content/BethanysPieShop</BasePath>
       <RelativePath>lib/jquery-validate/localization/messages_si.js</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
@@ -4232,9 +4250,9 @@
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\lib\jquery-validate\localization\messages_si.min.js'))">
       <SourceType>Package</SourceType>
-      <SourceId>MvcCoreSample</SourceId>
+      <SourceId>BethanysPieShop</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
-      <BasePath>_content/MvcCoreSample</BasePath>
+      <BasePath>_content/BethanysPieShop</BasePath>
       <RelativePath>lib/jquery-validate/localization/messages_si.min.js</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
@@ -4250,9 +4268,9 @@
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\lib\jquery-validate\localization\messages_sk.js'))">
       <SourceType>Package</SourceType>
-      <SourceId>MvcCoreSample</SourceId>
+      <SourceId>BethanysPieShop</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
-      <BasePath>_content/MvcCoreSample</BasePath>
+      <BasePath>_content/BethanysPieShop</BasePath>
       <RelativePath>lib/jquery-validate/localization/messages_sk.js</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
@@ -4268,9 +4286,9 @@
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\lib\jquery-validate\localization\messages_sk.min.js'))">
       <SourceType>Package</SourceType>
-      <SourceId>MvcCoreSample</SourceId>
+      <SourceId>BethanysPieShop</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
-      <BasePath>_content/MvcCoreSample</BasePath>
+      <BasePath>_content/BethanysPieShop</BasePath>
       <RelativePath>lib/jquery-validate/localization/messages_sk.min.js</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
@@ -4286,9 +4304,9 @@
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\lib\jquery-validate\localization\messages_sl.js'))">
       <SourceType>Package</SourceType>
-      <SourceId>MvcCoreSample</SourceId>
+      <SourceId>BethanysPieShop</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
-      <BasePath>_content/MvcCoreSample</BasePath>
+      <BasePath>_content/BethanysPieShop</BasePath>
       <RelativePath>lib/jquery-validate/localization/messages_sl.js</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
@@ -4304,9 +4322,9 @@
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\lib\jquery-validate\localization\messages_sl.min.js'))">
       <SourceType>Package</SourceType>
-      <SourceId>MvcCoreSample</SourceId>
+      <SourceId>BethanysPieShop</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
-      <BasePath>_content/MvcCoreSample</BasePath>
+      <BasePath>_content/BethanysPieShop</BasePath>
       <RelativePath>lib/jquery-validate/localization/messages_sl.min.js</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
@@ -4322,9 +4340,9 @@
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\lib\jquery-validate\localization\messages_sr.js'))">
       <SourceType>Package</SourceType>
-      <SourceId>MvcCoreSample</SourceId>
+      <SourceId>BethanysPieShop</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
-      <BasePath>_content/MvcCoreSample</BasePath>
+      <BasePath>_content/BethanysPieShop</BasePath>
       <RelativePath>lib/jquery-validate/localization/messages_sr.js</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
@@ -4340,9 +4358,9 @@
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\lib\jquery-validate\localization\messages_sr.min.js'))">
       <SourceType>Package</SourceType>
-      <SourceId>MvcCoreSample</SourceId>
+      <SourceId>BethanysPieShop</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
-      <BasePath>_content/MvcCoreSample</BasePath>
+      <BasePath>_content/BethanysPieShop</BasePath>
       <RelativePath>lib/jquery-validate/localization/messages_sr.min.js</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
@@ -4358,9 +4376,9 @@
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\lib\jquery-validate\localization\messages_sr_lat.js'))">
       <SourceType>Package</SourceType>
-      <SourceId>MvcCoreSample</SourceId>
+      <SourceId>BethanysPieShop</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
-      <BasePath>_content/MvcCoreSample</BasePath>
+      <BasePath>_content/BethanysPieShop</BasePath>
       <RelativePath>lib/jquery-validate/localization/messages_sr_lat.js</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
@@ -4376,9 +4394,9 @@
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\lib\jquery-validate\localization\messages_sr_lat.min.js'))">
       <SourceType>Package</SourceType>
-      <SourceId>MvcCoreSample</SourceId>
+      <SourceId>BethanysPieShop</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
-      <BasePath>_content/MvcCoreSample</BasePath>
+      <BasePath>_content/BethanysPieShop</BasePath>
       <RelativePath>lib/jquery-validate/localization/messages_sr_lat.min.js</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
@@ -4394,9 +4412,9 @@
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\lib\jquery-validate\localization\messages_sv.js'))">
       <SourceType>Package</SourceType>
-      <SourceId>MvcCoreSample</SourceId>
+      <SourceId>BethanysPieShop</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
-      <BasePath>_content/MvcCoreSample</BasePath>
+      <BasePath>_content/BethanysPieShop</BasePath>
       <RelativePath>lib/jquery-validate/localization/messages_sv.js</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
@@ -4412,9 +4430,9 @@
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\lib\jquery-validate\localization\messages_sv.min.js'))">
       <SourceType>Package</SourceType>
-      <SourceId>MvcCoreSample</SourceId>
+      <SourceId>BethanysPieShop</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
-      <BasePath>_content/MvcCoreSample</BasePath>
+      <BasePath>_content/BethanysPieShop</BasePath>
       <RelativePath>lib/jquery-validate/localization/messages_sv.min.js</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
@@ -4430,9 +4448,9 @@
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\lib\jquery-validate\localization\messages_th.js'))">
       <SourceType>Package</SourceType>
-      <SourceId>MvcCoreSample</SourceId>
+      <SourceId>BethanysPieShop</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
-      <BasePath>_content/MvcCoreSample</BasePath>
+      <BasePath>_content/BethanysPieShop</BasePath>
       <RelativePath>lib/jquery-validate/localization/messages_th.js</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
@@ -4448,9 +4466,9 @@
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\lib\jquery-validate\localization\messages_th.min.js'))">
       <SourceType>Package</SourceType>
-      <SourceId>MvcCoreSample</SourceId>
+      <SourceId>BethanysPieShop</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
-      <BasePath>_content/MvcCoreSample</BasePath>
+      <BasePath>_content/BethanysPieShop</BasePath>
       <RelativePath>lib/jquery-validate/localization/messages_th.min.js</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
@@ -4466,9 +4484,9 @@
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\lib\jquery-validate\localization\messages_tj.js'))">
       <SourceType>Package</SourceType>
-      <SourceId>MvcCoreSample</SourceId>
+      <SourceId>BethanysPieShop</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
-      <BasePath>_content/MvcCoreSample</BasePath>
+      <BasePath>_content/BethanysPieShop</BasePath>
       <RelativePath>lib/jquery-validate/localization/messages_tj.js</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
@@ -4484,9 +4502,9 @@
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\lib\jquery-validate\localization\messages_tj.min.js'))">
       <SourceType>Package</SourceType>
-      <SourceId>MvcCoreSample</SourceId>
+      <SourceId>BethanysPieShop</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
-      <BasePath>_content/MvcCoreSample</BasePath>
+      <BasePath>_content/BethanysPieShop</BasePath>
       <RelativePath>lib/jquery-validate/localization/messages_tj.min.js</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
@@ -4502,9 +4520,9 @@
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\lib\jquery-validate\localization\messages_tr.js'))">
       <SourceType>Package</SourceType>
-      <SourceId>MvcCoreSample</SourceId>
+      <SourceId>BethanysPieShop</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
-      <BasePath>_content/MvcCoreSample</BasePath>
+      <BasePath>_content/BethanysPieShop</BasePath>
       <RelativePath>lib/jquery-validate/localization/messages_tr.js</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
@@ -4520,9 +4538,9 @@
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\lib\jquery-validate\localization\messages_tr.min.js'))">
       <SourceType>Package</SourceType>
-      <SourceId>MvcCoreSample</SourceId>
+      <SourceId>BethanysPieShop</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
-      <BasePath>_content/MvcCoreSample</BasePath>
+      <BasePath>_content/BethanysPieShop</BasePath>
       <RelativePath>lib/jquery-validate/localization/messages_tr.min.js</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
@@ -4538,9 +4556,9 @@
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\lib\jquery-validate\localization\messages_uk.js'))">
       <SourceType>Package</SourceType>
-      <SourceId>MvcCoreSample</SourceId>
+      <SourceId>BethanysPieShop</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
-      <BasePath>_content/MvcCoreSample</BasePath>
+      <BasePath>_content/BethanysPieShop</BasePath>
       <RelativePath>lib/jquery-validate/localization/messages_uk.js</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
@@ -4556,9 +4574,9 @@
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\lib\jquery-validate\localization\messages_uk.min.js'))">
       <SourceType>Package</SourceType>
-      <SourceId>MvcCoreSample</SourceId>
+      <SourceId>BethanysPieShop</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
-      <BasePath>_content/MvcCoreSample</BasePath>
+      <BasePath>_content/BethanysPieShop</BasePath>
       <RelativePath>lib/jquery-validate/localization/messages_uk.min.js</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
@@ -4574,9 +4592,9 @@
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\lib\jquery-validate\localization\messages_ur.js'))">
       <SourceType>Package</SourceType>
-      <SourceId>MvcCoreSample</SourceId>
+      <SourceId>BethanysPieShop</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
-      <BasePath>_content/MvcCoreSample</BasePath>
+      <BasePath>_content/BethanysPieShop</BasePath>
       <RelativePath>lib/jquery-validate/localization/messages_ur.js</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
@@ -4592,9 +4610,9 @@
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\lib\jquery-validate\localization\messages_ur.min.js'))">
       <SourceType>Package</SourceType>
-      <SourceId>MvcCoreSample</SourceId>
+      <SourceId>BethanysPieShop</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
-      <BasePath>_content/MvcCoreSample</BasePath>
+      <BasePath>_content/BethanysPieShop</BasePath>
       <RelativePath>lib/jquery-validate/localization/messages_ur.min.js</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
@@ -4610,9 +4628,9 @@
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\lib\jquery-validate\localization\messages_vi.js'))">
       <SourceType>Package</SourceType>
-      <SourceId>MvcCoreSample</SourceId>
+      <SourceId>BethanysPieShop</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
-      <BasePath>_content/MvcCoreSample</BasePath>
+      <BasePath>_content/BethanysPieShop</BasePath>
       <RelativePath>lib/jquery-validate/localization/messages_vi.js</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
@@ -4628,9 +4646,9 @@
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\lib\jquery-validate\localization\messages_vi.min.js'))">
       <SourceType>Package</SourceType>
-      <SourceId>MvcCoreSample</SourceId>
+      <SourceId>BethanysPieShop</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
-      <BasePath>_content/MvcCoreSample</BasePath>
+      <BasePath>_content/BethanysPieShop</BasePath>
       <RelativePath>lib/jquery-validate/localization/messages_vi.min.js</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
@@ -4646,9 +4664,9 @@
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\lib\jquery-validate\localization\messages_zh.js'))">
       <SourceType>Package</SourceType>
-      <SourceId>MvcCoreSample</SourceId>
+      <SourceId>BethanysPieShop</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
-      <BasePath>_content/MvcCoreSample</BasePath>
+      <BasePath>_content/BethanysPieShop</BasePath>
       <RelativePath>lib/jquery-validate/localization/messages_zh.js</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
@@ -4664,9 +4682,9 @@
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\lib\jquery-validate\localization\messages_zh.min.js'))">
       <SourceType>Package</SourceType>
-      <SourceId>MvcCoreSample</SourceId>
+      <SourceId>BethanysPieShop</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
-      <BasePath>_content/MvcCoreSample</BasePath>
+      <BasePath>_content/BethanysPieShop</BasePath>
       <RelativePath>lib/jquery-validate/localization/messages_zh.min.js</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
@@ -4682,9 +4700,9 @@
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\lib\jquery-validate\localization\messages_zh_tw.js'))">
       <SourceType>Package</SourceType>
-      <SourceId>MvcCoreSample</SourceId>
+      <SourceId>BethanysPieShop</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
-      <BasePath>_content/MvcCoreSample</BasePath>
+      <BasePath>_content/BethanysPieShop</BasePath>
       <RelativePath>lib/jquery-validate/localization/messages_zh_tw.js</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
@@ -4700,9 +4718,9 @@
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\lib\jquery-validate\localization\messages_zh_tw.min.js'))">
       <SourceType>Package</SourceType>
-      <SourceId>MvcCoreSample</SourceId>
+      <SourceId>BethanysPieShop</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
-      <BasePath>_content/MvcCoreSample</BasePath>
+      <BasePath>_content/BethanysPieShop</BasePath>
       <RelativePath>lib/jquery-validate/localization/messages_zh_tw.min.js</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
@@ -4718,9 +4736,9 @@
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\lib\jquery-validate\localization\methods_de.js'))">
       <SourceType>Package</SourceType>
-      <SourceId>MvcCoreSample</SourceId>
+      <SourceId>BethanysPieShop</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
-      <BasePath>_content/MvcCoreSample</BasePath>
+      <BasePath>_content/BethanysPieShop</BasePath>
       <RelativePath>lib/jquery-validate/localization/methods_de.js</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
@@ -4736,9 +4754,9 @@
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\lib\jquery-validate\localization\methods_de.min.js'))">
       <SourceType>Package</SourceType>
-      <SourceId>MvcCoreSample</SourceId>
+      <SourceId>BethanysPieShop</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
-      <BasePath>_content/MvcCoreSample</BasePath>
+      <BasePath>_content/BethanysPieShop</BasePath>
       <RelativePath>lib/jquery-validate/localization/methods_de.min.js</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
@@ -4754,9 +4772,9 @@
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\lib\jquery-validate\localization\methods_es_cl.js'))">
       <SourceType>Package</SourceType>
-      <SourceId>MvcCoreSample</SourceId>
+      <SourceId>BethanysPieShop</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
-      <BasePath>_content/MvcCoreSample</BasePath>
+      <BasePath>_content/BethanysPieShop</BasePath>
       <RelativePath>lib/jquery-validate/localization/methods_es_cl.js</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
@@ -4772,9 +4790,9 @@
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\lib\jquery-validate\localization\methods_es_cl.min.js'))">
       <SourceType>Package</SourceType>
-      <SourceId>MvcCoreSample</SourceId>
+      <SourceId>BethanysPieShop</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
-      <BasePath>_content/MvcCoreSample</BasePath>
+      <BasePath>_content/BethanysPieShop</BasePath>
       <RelativePath>lib/jquery-validate/localization/methods_es_cl.min.js</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
@@ -4790,9 +4808,9 @@
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\lib\jquery-validate\localization\methods_fi.js'))">
       <SourceType>Package</SourceType>
-      <SourceId>MvcCoreSample</SourceId>
+      <SourceId>BethanysPieShop</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
-      <BasePath>_content/MvcCoreSample</BasePath>
+      <BasePath>_content/BethanysPieShop</BasePath>
       <RelativePath>lib/jquery-validate/localization/methods_fi.js</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
@@ -4808,9 +4826,9 @@
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\lib\jquery-validate\localization\methods_fi.min.js'))">
       <SourceType>Package</SourceType>
-      <SourceId>MvcCoreSample</SourceId>
+      <SourceId>BethanysPieShop</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
-      <BasePath>_content/MvcCoreSample</BasePath>
+      <BasePath>_content/BethanysPieShop</BasePath>
       <RelativePath>lib/jquery-validate/localization/methods_fi.min.js</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
@@ -4826,9 +4844,9 @@
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\lib\jquery-validate\localization\methods_it.js'))">
       <SourceType>Package</SourceType>
-      <SourceId>MvcCoreSample</SourceId>
+      <SourceId>BethanysPieShop</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
-      <BasePath>_content/MvcCoreSample</BasePath>
+      <BasePath>_content/BethanysPieShop</BasePath>
       <RelativePath>lib/jquery-validate/localization/methods_it.js</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
@@ -4844,9 +4862,9 @@
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\lib\jquery-validate\localization\methods_it.min.js'))">
       <SourceType>Package</SourceType>
-      <SourceId>MvcCoreSample</SourceId>
+      <SourceId>BethanysPieShop</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
-      <BasePath>_content/MvcCoreSample</BasePath>
+      <BasePath>_content/BethanysPieShop</BasePath>
       <RelativePath>lib/jquery-validate/localization/methods_it.min.js</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
@@ -4862,9 +4880,9 @@
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\lib\jquery-validate\localization\methods_nl.js'))">
       <SourceType>Package</SourceType>
-      <SourceId>MvcCoreSample</SourceId>
+      <SourceId>BethanysPieShop</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
-      <BasePath>_content/MvcCoreSample</BasePath>
+      <BasePath>_content/BethanysPieShop</BasePath>
       <RelativePath>lib/jquery-validate/localization/methods_nl.js</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
@@ -4880,9 +4898,9 @@
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\lib\jquery-validate\localization\methods_nl.min.js'))">
       <SourceType>Package</SourceType>
-      <SourceId>MvcCoreSample</SourceId>
+      <SourceId>BethanysPieShop</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
-      <BasePath>_content/MvcCoreSample</BasePath>
+      <BasePath>_content/BethanysPieShop</BasePath>
       <RelativePath>lib/jquery-validate/localization/methods_nl.min.js</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
@@ -4898,9 +4916,9 @@
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\lib\jquery-validate\localization\methods_pt.js'))">
       <SourceType>Package</SourceType>
-      <SourceId>MvcCoreSample</SourceId>
+      <SourceId>BethanysPieShop</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
-      <BasePath>_content/MvcCoreSample</BasePath>
+      <BasePath>_content/BethanysPieShop</BasePath>
       <RelativePath>lib/jquery-validate/localization/methods_pt.js</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
@@ -4916,9 +4934,9 @@
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\lib\jquery-validate\localization\methods_pt.min.js'))">
       <SourceType>Package</SourceType>
-      <SourceId>MvcCoreSample</SourceId>
+      <SourceId>BethanysPieShop</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
-      <BasePath>_content/MvcCoreSample</BasePath>
+      <BasePath>_content/BethanysPieShop</BasePath>
       <RelativePath>lib/jquery-validate/localization/methods_pt.min.js</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
@@ -4934,9 +4952,9 @@
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\lib\jquery-validation-unobtrusive\jquery.validate.unobtrusive.js'))">
       <SourceType>Package</SourceType>
-      <SourceId>MvcCoreSample</SourceId>
+      <SourceId>BethanysPieShop</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
-      <BasePath>_content/MvcCoreSample</BasePath>
+      <BasePath>_content/BethanysPieShop</BasePath>
       <RelativePath>lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
@@ -4952,9 +4970,9 @@
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\lib\jquery-validation-unobtrusive\jquery.validate.unobtrusive.min.js'))">
       <SourceType>Package</SourceType>
-      <SourceId>MvcCoreSample</SourceId>
+      <SourceId>BethanysPieShop</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
-      <BasePath>_content/MvcCoreSample</BasePath>
+      <BasePath>_content/BethanysPieShop</BasePath>
       <RelativePath>lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
@@ -4970,9 +4988,9 @@
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\lib\jquery\jquery.js'))">
       <SourceType>Package</SourceType>
-      <SourceId>MvcCoreSample</SourceId>
+      <SourceId>BethanysPieShop</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
-      <BasePath>_content/MvcCoreSample</BasePath>
+      <BasePath>_content/BethanysPieShop</BasePath>
       <RelativePath>lib/jquery/jquery.js</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
@@ -4988,9 +5006,9 @@
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\lib\jquery\jquery.min.js'))">
       <SourceType>Package</SourceType>
-      <SourceId>MvcCoreSample</SourceId>
+      <SourceId>BethanysPieShop</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
-      <BasePath>_content/MvcCoreSample</BasePath>
+      <BasePath>_content/BethanysPieShop</BasePath>
       <RelativePath>lib/jquery/jquery.min.js</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
@@ -5006,9 +5024,9 @@
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\lib\jquery\jquery.min.map'))">
       <SourceType>Package</SourceType>
-      <SourceId>MvcCoreSample</SourceId>
+      <SourceId>BethanysPieShop</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
-      <BasePath>_content/MvcCoreSample</BasePath>
+      <BasePath>_content/BethanysPieShop</BasePath>
       <RelativePath>lib/jquery/jquery.min.map</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
@@ -5024,9 +5042,9 @@
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\lib\jquery\jquery.slim.js'))">
       <SourceType>Package</SourceType>
-      <SourceId>MvcCoreSample</SourceId>
+      <SourceId>BethanysPieShop</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
-      <BasePath>_content/MvcCoreSample</BasePath>
+      <BasePath>_content/BethanysPieShop</BasePath>
       <RelativePath>lib/jquery/jquery.slim.js</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
@@ -5042,9 +5060,9 @@
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\lib\jquery\jquery.slim.min.js'))">
       <SourceType>Package</SourceType>
-      <SourceId>MvcCoreSample</SourceId>
+      <SourceId>BethanysPieShop</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
-      <BasePath>_content/MvcCoreSample</BasePath>
+      <BasePath>_content/BethanysPieShop</BasePath>
       <RelativePath>lib/jquery/jquery.slim.min.js</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
@@ -5060,9 +5078,9 @@
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\lib\jquery\jquery.slim.min.map'))">
       <SourceType>Package</SourceType>
-      <SourceId>MvcCoreSample</SourceId>
+      <SourceId>BethanysPieShop</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
-      <BasePath>_content/MvcCoreSample</BasePath>
+      <BasePath>_content/BethanysPieShop</BasePath>
       <RelativePath>lib/jquery/jquery.slim.min.map</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>

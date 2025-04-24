@@ -3,6 +3,88 @@
   "ManifestType": "Build",
   "Endpoints": [
     {
+      "Route": "BethanysPieShop.n3tal50gc5.styles.css",
+      "AssetFile": "BethanysPieShop.styles.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2243"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"LeV01OHMg73HvalwG0EvPxouqqAu7rlahOZ3NkwPB6w=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 24 Apr 2025 15:28:43 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "n3tal50gc5"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-LeV01OHMg73HvalwG0EvPxouqqAu7rlahOZ3NkwPB6w="
+        },
+        {
+          "Name": "label",
+          "Value": "BethanysPieShop.styles.css"
+        }
+      ]
+    },
+    {
+      "Route": "BethanysPieShop.styles.css",
+      "AssetFile": "BethanysPieShop.styles.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2243"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"LeV01OHMg73HvalwG0EvPxouqqAu7rlahOZ3NkwPB6w=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 24 Apr 2025 15:28:43 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-LeV01OHMg73HvalwG0EvPxouqqAu7rlahOZ3NkwPB6w="
+        }
+      ]
+    },
+    {
       "Route": "Images/bethanys-pie-shop-logo_horiz-white.kzy67grqdd.png",
       "AssetFile": "Images/bethanys-pie-shop-logo_horiz-white.png",
       "Selectors": [],
