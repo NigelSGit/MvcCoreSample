@@ -4,13 +4,13 @@
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\BethanysPieShop.n3tal50gc5.bundle.scp.css'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
       <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-LeV01OHMg73HvalwG0EvPxouqqAu7rlahOZ3NkwPB6w="}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"2243"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022LeV01OHMg73HvalwG0EvPxouqqAu7rlahOZ3NkwPB6w=\u0022"},{"Name":"Last-Modified","Value":"Thu, 24 Apr 2025 15:28:43 GMT"}]]]></ResponseHeaders>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"2243"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022LeV01OHMg73HvalwG0EvPxouqqAu7rlahOZ3NkwPB6w=\u0022"},{"Name":"Last-Modified","Value":"Fri, 25 Apr 2025 11:46:17 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/BethanysPieShop/BethanysPieShop.n3tal50gc5.bundle.scp.css">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\BethanysPieShop.n3tal50gc5.bundle.scp.css'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
       <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"n3tal50gc5"},{"Name":"integrity","Value":"sha256-LeV01OHMg73HvalwG0EvPxouqqAu7rlahOZ3NkwPB6w="},{"Name":"label","Value":"_content/BethanysPieShop/BethanysPieShop.bundle.scp.css"}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"2243"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022LeV01OHMg73HvalwG0EvPxouqqAu7rlahOZ3NkwPB6w=\u0022"},{"Name":"Last-Modified","Value":"Thu, 24 Apr 2025 15:28:43 GMT"}]]]></ResponseHeaders>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"2243"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022LeV01OHMg73HvalwG0EvPxouqqAu7rlahOZ3NkwPB6w=\u0022"},{"Name":"Last-Modified","Value":"Fri, 25 Apr 2025 11:46:17 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/BethanysPieShop/css/site.css">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\css\site.css'))</AssetFile>

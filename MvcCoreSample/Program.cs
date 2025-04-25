@@ -39,6 +39,7 @@ if (app.Environment.IsDevelopment())
 
 app.UseStaticFiles();
 app.UseSession();
+app.UseAuthentication();
 
 app.UseAntiforgery();
 
